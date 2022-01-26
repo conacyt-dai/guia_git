@@ -120,7 +120,7 @@ git push
 Si se requiere publicar los cambios realizados en un solo archivo del repositorio el procedimiento es el siguiente:
 
 <pre>
-git add archivo  (Nombre del archivo ejemplo acb.txt)
+git add archivo  (Ejemplo: git add abc.txt)
 git commit -m "Mensaje"
 git push
 </pre>
