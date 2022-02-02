@@ -29,13 +29,13 @@ Acceder a este **[enlace](https://github.com/)** para crear una cuenta de GitHub
 4.- Listo, una vez seleccionadas las preferencias de configuración el nuevo repositorio se habrá creado.
 
 
-### Instalación de Git en Linux y Windows
+### Instalación de Git en Linux, Windows y macOS
 
 <p align="center">         
 <img src="imagen/logo1.png" alt="git" style="width:200px;"/>
 </p>
 
-Para descargar el archivo de instalación de Git acceder a este **[enlace](https://git-scm.com/)**.
+Para descargar el archivo de instalación de Git acceder a este **[enlace](https://git-scm.com/downloads)**.
 
 Sobre la instalación, las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
 
