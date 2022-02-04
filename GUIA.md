@@ -35,7 +35,7 @@ Acceder a este **[enlace](https://github.com/)** para crear una cuenta de GitHub
 <img src="imagen/logo1.png" alt="git" style="width:200px;"/>
 </p>
 
-Git es un software cread por  **[Linus Torvals](https://es.wikipedia.org/wiki/Linus_Torvalds)** creado para mejorar la eficiencia, confiabilidad y compatibilidad de versiones de aplicaciones cuando estpas cuentan cun un gran número de código fuente y participan vari@s desarrollador@s simultáneamente (**[Wikipedia](https://es.wikipedia.org/wiki/Git)**, **[Git](https://git-scm.com/)** ).
+Git es un software cread por  **[Linus Torvals](https://es.wikipedia.org/wiki/Linus_Torvalds)** diseñado para mejorar la eficiencia, confiabilidad y compatibilidad de versiones de aplicaciones cuando están compuestas por un gran número de código fuente y participan vari@s desarrollador@s simultáneamente (**[Wikipedia](https://es.wikipedia.org/wiki/Git)**, **[Git](https://git-scm.com/)** ).
 
 Con esta herramienta es posible actualizar el código desarrollado de manera colaborativa conservando un registro y control de versiones.
 
