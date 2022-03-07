@@ -55,7 +55,7 @@ En esta ubicación se generará el repositorio que podrá usarse en el futuro. U
 
 Lo anterior agrega la carpeta *nuevo_repositorio* a git, reconociéndola como repositorio. Posteriormente, para clonar el repositorio de GitHub:
 
-<code> git clone URL </code>
+- <code> git clone URL </code>
 
 Donde ***URL*** es el enlace para clonar desde la página de GitHub. 
 
@@ -112,29 +112,28 @@ Para estar al tanto de los cambios que se han realizado en el repositorio de Git
 
 Procedimiento:
 
-<pre>
-git pull --verbose
-</pre>
+
+- <code> git pull --verbose </code>
+
 
 #### Publicar cambios en el repositorio remoto GitHub
 
 Para agregar las modificaciones realizadas a todos los archivos contenidos en el repositorio local se debe seguir el siguiente procedimiento. Sin embargo, se recuerda que antes de publicar cambios, es necesario trabajar sobre el archivo. Esto se puede ver en la sección de Uso de RStudio para clonar). 
  
-<pre>
-git add .
-git commit -m "Agregar un Mensaje"
-git push
-</pre>
+- <code> git add . </code>
+- <code> git commit -m "Agregar un mensaje sobre la actualización realizada " </code>
+- <code> git push </code>
+
 
 ### Publicar cambios en un solo archivo
 
 Si se requiere publicar los cambios realizados en un solo archivo del repositorio el procedimiento es el siguiente:
 
-<pre>
-git add archivo  (Ejemplo: git add abc.txt)
-git commit -m "Mensaje"
-git push
-</pre>
+
+- <code> git add nombre_archivo.extensión  (Ejemplo: git add abc.txt) </code>
+- <code> git commit -m "Mensaje sobre la actualización realizada" </code>
+- <code> git push </code>
+
 
 ### Comandos Git
 
