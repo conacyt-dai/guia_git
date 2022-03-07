@@ -94,11 +94,13 @@ Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y da
 
 Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
 
+
 - <code> git config --global user.name <Nombre de usuario>   </code>
 
 	
 - <code> git config --global user.email <Cuenta de correo electrónico>   </code>
 
+	
 Al abrir Git Bash, seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
 - <code>  cd  / Documents/nuevo_repositorio </code>
