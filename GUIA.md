@@ -51,15 +51,11 @@ C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>
 
 En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git, se deben de seguir los siguientes pasos para copiar un repositorio. Como amigable recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**. Y el primer paso es Abrir Git Bash y escribir:
 
-<code>
-cd Documents/repositorio_nuevo
-</code>
+<code> cd Documents/repositorio_nuevo </code>
 
 Lo anterior agrega la carpeta *nuevo_repositorio* a git, reconociéndola como repositorio. Posteriormente, para clonar el repositorio de GitHub:
 
-<code>
-git clone URL
-</code>
+<code> git clone URL </code>
 
 Donde ***URL*** es el enlace para clonar desde la página de GitHub. 
 
