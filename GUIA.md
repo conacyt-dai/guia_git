@@ -101,7 +101,7 @@ Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
 
 - <code> git config --global user.name  <Tu nombre de usuario>   </code>
 
-- <code> git config --global user.email  <tu cuenta de correo electrónico>   </code>
+- <code> git config --global user.email  <Tu cuenta de correo electrónico>   </code>
 
 Al abrir Git Bash, seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
