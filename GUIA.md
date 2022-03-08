@@ -182,6 +182,10 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
       <td> git rm archivo </td>
       <td> Eliminar un archivo en particular </td>
     </tr>
+    <tr>
+      <td> git status </td>
+      <td> Revisar si hay cambios pendientes de confirmar </td>
+    </tr>
 </table>
 
 
