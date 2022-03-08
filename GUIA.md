@@ -175,7 +175,7 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
       <td> Eliminar un repositorio local </td>
     </tr>
     <tr>
-      <td> git rm --cached <directorio> </td>
+      <td> git rm --cached nombre_directorio </td>
       <td> Eliminar repositorio de seguimiento git </td>
     </tr>
     <tr>
@@ -187,7 +187,7 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
       <td> Revisar si hay cambios pendientes de confirmar </td>
     </tr>
 	   <tr>
-      <td> git reset HEAD <archivo> </td>
+      <td> git reset HEAD nombre_archivo </td>
       <td> Regresa un archivo al último commit </td>
     </tr>
 </table>
