@@ -171,12 +171,12 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
       <td> Para cambiar de una rama a otra (1) </td>
     </tr>
     <tr>
-      <td> cd carpeta/ <p> rm - rf .git </p>  </td>
+      <td> Paso 1: cd carpeta/ <p>Paso 2: rm - rf .git </p>  </td>
       <td> Eliminar un repositorio local </td>
     </tr>
     <tr>
-      <td> git rm -r --cached directorio </td>
-      <td> Eliminar repositorio y contenido </td>
+      <td> git rm --cached <directorio> </td>
+      <td> Eliminar repositorio de seguimiento git </td>
     </tr>
     <tr>
       <td> git rm archivo </td>
@@ -185,6 +185,10 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
     <tr>
       <td> git status </td>
       <td> Revisar si hay cambios pendientes de confirmar </td>
+    </tr>
+	   <tr>
+      <td> git reset HEAD <archivo> </td>
+      <td> Regresa un archivo al último commit </td>
     </tr>
 </table>
 
