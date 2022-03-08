@@ -90,7 +90,7 @@ Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y da
 ##  Trabajar con Git desde  Git Bash
 
 
-### Configutación
+### Configuración
 
 Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
 
