@@ -39,20 +39,20 @@ Git es un software cread por  **[Linus Torvals](https://es.wikipedia.org/wiki/Li
 
 Con esta herramienta es posible actualizar el código desarrollado de manera colaborativa conservando un registro y control de versiones.
 
-	Instrucciones:
+Instrucciones:
 
-	Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)** y descarga el archivo correspondiente al sistema operativo que utilices.
+Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)** y descarga el archivo correspondiente al sistema operativo que utilices.
 
-	Sobre la instalación, las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
+Sobre la instalación, las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
 
 
 ### Configuración
 
 Como recomendación, se podrá crear una carpeta "repositorio" en la siguiente ubicación de tu ordenador:
 
-	C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>
+C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>
 	
-	En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git puedes seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**.
+En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git puedes seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**.
 
 
 Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
@@ -100,7 +100,7 @@ Se sugiere que el usuario emplee el protocolo HTTPS, por su eficiencia y facilid
 
 	
 
-	### LINK de repositorio GitHub
+### LINK de repositorio GitHub
 
 Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y dar clic al botón verde "Code".
 
