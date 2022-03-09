@@ -18,7 +18,7 @@ GitHub es conocida como la “plataforma de desarrollo de software líder en el 
 
 #### Crear cuenta y repositorio
 
-Acceder a este **[enlace](https://github.com/)** y crear una cuenta de GitHub, para ello vas a necesitar una dirección de correo electónico, generar un nombre de usuaria o usuario y una contraseña.
+Primero, Accede a este **[enlace](https://github.com/)** y crear una cuenta de GitHub, para ello vas a necesitar una dirección de correo electónico, generar un nombre de usuaria o usuario y una contraseña.
 
 1.- Una vez creada la cuenta, en la parte superior derecha de la página de GitHub se observará un símbolo ' + '. 
 
@@ -58,20 +58,20 @@ En esta ubicación se generará el repositorio que podrá usarse en el futuro. U
 Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
 
 	
-- <code> git config --global user.name <Nombre de usuario>   </code>
+-  ` git config --global user.name <Nombre de usuario>`
 
 	
-- <code> git config --global user.email <Cuenta de correo electrónico>   </code>
+- ` git config --global user.email <Cuenta de correo electrónico>` 
 
 
  Una vez agregadas las credenciales se debe agregar a Git la carpeta generada previamente:
 
--  <code> cd Documents/nuevo_repositorio </code>
+-  `cd Documents/nuevo_repositorio`
 
 
 Lo anterior agrega la carpeta *nuevo_repositorio* a git, reconociéndola como repositorio. Posteriormente, para clonar el repositorio de GitHub:
 
-- <code> git clone URL </code>
+- `git clone URL`
 
 Donde ***URL*** es el enlace para clonar desde la página de GitHub, su obtención se explica en la siguiente sección. 
 
@@ -115,28 +115,28 @@ Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y da
 	
 Al abrir Git Bash, seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
-- <code>  cd  / Documents/nuevo_repositorio </code>
+-  ` cd  / Documents/nuevo_repositorio `
 
 
--  <code>  git add nombre_archivo </code>
+-  ` git add nombre_archivo `
 
 #### Actualización o descarga de repositorio local
 
-Para estar al tanto de los cambios que se han realizado en el repositorio de GitHub se debe hacer una actualización de los cambios realizados en la nube. Por otro lado, cuando se quiere subir cambios a una rama, antes de subir los cambios (push) se debe actualizar, ya que en caso de que haya cambios no registrados en el repositorio local podría haber un error y no ejecutar la función push.
+Para estar al tanto de los cambios que se han realizado en el repositorio de GitHub se debe hacer una actualización de los cambios realizados en la nube. Por otro lado, cuando se quiere subir cambios a una rama, antes de subir los cambios (push) se debe actualizar, ya que en caso de que haya cambios no registrados en el repositorio local podría haber un error y no ejecutar la función `push`.
 
 Procedimiento:
 
 
-- <code> git pull --verbose </code>
+-  ` git pull --verbose`
 
 
 #### Publicar cambios en el repositorio remoto GitHub
 
 Para agregar las modificaciones realizadas a todos los archivos contenidos en el repositorio local se debe seguir el siguiente procedimiento. Sin embargo, se recuerda que antes de publicar cambios, es necesario trabajar sobre el archivo. Esto se puede ver en la sección de Uso de RStudio para clonar). 
  
-- <code> git add . </code>
-- <code> git commit -m "Agregar un mensaje sobre la actualización realizada " </code>
-- <code> git push </code>
+-  `git add . `
+-  `git commit -m "Agregar un mensaje sobre la actualización realizada "`
+-  `git push`
 
 
 ### Publicar cambios en un solo archivo
@@ -144,9 +144,9 @@ Para agregar las modificaciones realizadas a todos los archivos contenidos en el
 Si se requiere publicar los cambios realizados en un solo archivo del repositorio el procedimiento es el siguiente:
 
 
-- <code> git add nombre_archivo.extensión  (Ejemplo: git add abc.txt) </code>
-- <code> git commit -m "Mensaje sobre la actualización realizada" </code>
-- <code> git push </code>
+- ` git add nombre_archivo.extensión  (Ejemplo: git add abc.txt) `
+- ` git commit -m "Mensaje sobre la actualización realizada" `
+- ` git push `
 
 
 ### Comandos Git
