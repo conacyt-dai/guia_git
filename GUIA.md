@@ -5,7 +5,7 @@
 
 ## Introducción
 
-<p style="text-align:justify">Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de Gobierno de Datos, se ha generado esta guía para el uso de herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas Git y GitHub. Primero se muestran instrucciones sobre la instalación y posteriormente se explica cómo configurar e iniciar un proyecto desde RStudio.</p>
+<p style="text-align:justify">Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía para el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas. Primero se muestran instrucciones sobre la instalación y posteriormente se explica cómo configurar e iniciar un proyecto desde RStudio o desde Git.</p>
 
 ##
 ### GitHub
@@ -14,13 +14,13 @@
 <img src="imagen/logo2.png" alt="Files" style="width:200px;"/>
 </p>
 
-GitHub se nombra como la “plataforma de desarrollo de software líder en el mundo”, pues permite publicar, compartir y socializar (como una Red Social Digital) el código de programación. Además, permite registrar y ver cada cambio en el código y las carpetas que se ha hecho, permitiendo rastrear el progreso y, si es necesario, revertirlo (2019). 
+GitHub es conocida como la “plataforma de desarrollo de software líder en el mundo”, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. Además, permite registrar y ver cada cambio en el código y las carpetas de trabajo, permitiendo rastrear el progreso y, si es necesario, revertirlo. Es importante mencionar que esta plataforma fue **[adquirida por Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/)**. 
 
 #### Crear cuenta y repositorio
 
-Acceder a este **[enlace](https://github.com/)** para crear una cuenta de GitHub.
+Acceder a este **[enlace](https://github.com/)** y crear una cuenta de GitHub, para ello vas a necesitar una dirección de correo electónico, generar un nombre de usuaria o usuario y una contraseña.
 
-1.- Una vez creada la cuenta, en la parte superior derecha de la página de Git Hub se observará un símbolo ' + '. 
+1.- Una vez creada la cuenta, en la parte superior derecha de la página de GitHub se observará un símbolo ' + '. 
 
 2.- Debe abrir esa pestaña y de clic en "New Repository". 
 
@@ -39,25 +39,38 @@ Git es un software cread por  **[Linus Torvals](https://es.wikipedia.org/wiki/Li
 
 Con esta herramienta es posible actualizar el código desarrollado de manera colaborativa conservando un registro y control de versiones.
 
+Instrucciones:
 
-Para descargar el archivo de instalación de Git acceder a este **[enlace](https://git-scm.com/downloads)**.
+	Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)** y descarga el archivo correspondiente al sistema operativo que utilices.
 
-Sobre la instalación, las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
+	Sobre la instalación, las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
 
-Como recomendación, se podrá crear una carpeta "repositorio" en la siguiente ubicación:
+	Como recomendación, se podrá crear una carpeta "repositorio" en la siguiente ubicación:
 ```
-C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>
+	C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>
 ```
 
-En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git, se deben de seguir los siguientes pasos para copiar un repositorio. Como amigable recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**. Y el primer paso es Abrir Git Bash y escribir:
+En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git puedes seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**. Y el primer paso es Abrir Git Bash y escribir:
 
--  <code> cd Documents/repositorio_nuevo </code>
+
+
+-  <code> cd Documents/nuevo_repositorio </code>
 
 Lo anterior agrega la carpeta *nuevo_repositorio* a git, reconociéndola como repositorio. Posteriormente, para clonar el repositorio de GitHub:
 
 - <code> git clone URL </code>
 
 Donde ***URL*** es el enlace para clonar desde la página de GitHub. 
+
+### Configuración
+
+Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
+
+
+- <code> git config --global user.name <Nombre de usuario>   </code>
+
+	
+- <code> git config --global user.email <Cuenta de correo electrónico>   </code>
 
 
 #### Autenticación 
@@ -88,17 +101,6 @@ Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y da
 *Más información puede consultarse en el siguiente*  **[enlace](https://docs.github.com/en/get-started/quickstart/set-up-git)**.
 
 ##  Trabajar con Git desde  Git Bash
-
-
-### Configuración
-
-Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
-
-
-- <code> git config --global user.name <Nombre de usuario>   </code>
-
-	
-- <code> git config --global user.email <Cuenta de correo electrónico>   </code>
 
 	
 Al abrir Git Bash, seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
@@ -315,13 +317,13 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 Para garantizar el control de la infromación y de los flujos de trabajo se recomienda lo siguiente:
 	
-	- Si se quiere proteger el código y la información, en primera instancia se recomienda configurar los repositorios como ** privados **.
+	 Si se quiere proteger el código y la información, en primera instancia se recomienda configurar los repositorios como **privados**.
 	
-	- En el uso de datos, es importante evaluar la existencia de datos ** personales y/o sensibles ** para removerlos o anonimizarlos antes de subirlos a los repositorios.
+	 En el uso de datos, es importante evaluar la existencia de datos **personales y/o sensibles** para removerlos o anonimizarlos antes de subirlos a los repositorios.
 	
-	- Agregar un archivo que describa las características del proyecto.
+	 Agregar un archivo que describa las características del proyecto.
 	
-	- Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
+	 Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
 	 
 	
 	
