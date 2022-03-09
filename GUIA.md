@@ -39,43 +39,46 @@ Git es un software cread por  **[Linus Torvals](https://es.wikipedia.org/wiki/Li
 
 Con esta herramienta es posible actualizar el código desarrollado de manera colaborativa conservando un registro y control de versiones.
 
-Instrucciones:
+	Instrucciones:
 
 	Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)** y descarga el archivo correspondiente al sistema operativo que utilices.
 
 	Sobre la instalación, las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
 
-	Como recomendación, se podrá crear una carpeta "repositorio" en la siguiente ubicación:
-```
-	C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>
-```
-
-En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git puedes seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**. Y el primer paso es Abrir Git Bash y escribir:
-
-
-
--  <code> cd Documents/nuevo_repositorio </code>
-
-Lo anterior agrega la carpeta *nuevo_repositorio* a git, reconociéndola como repositorio. Posteriormente, para clonar el repositorio de GitHub:
-
-- <code> git clone URL </code>
-
-Donde ***URL*** es el enlace para clonar desde la página de GitHub. 
 
 ### Configuración
 
+Como recomendación, se podrá crear una carpeta "repositorio" en la siguiente ubicación de tu ordenador:
+
+	C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>
+	
+	En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git puedes seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**.
+
+
 Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
 
-
+	
 - <code> git config --global user.name <Nombre de usuario>   </code>
 
 	
 - <code> git config --global user.email <Cuenta de correo electrónico>   </code>
 
 
+ Una vez agregadas las credenciales se debe agregar a Git la carpeta generada previamente:
+
+-  <code> cd Documents/nuevo_repositorio </code>
+
+
+Lo anterior agrega la carpeta *nuevo_repositorio* a git, reconociéndola como repositorio. Posteriormente, para clonar el repositorio de GitHub:
+
+- <code> git clone URL </code>
+
+Donde ***URL*** es el enlace para clonar desde la página de GitHub, su obtención se explica en la siguiente sección. 
+
+
 #### Autenticación 
 
-Para vincular un repositorio de GitHub a RStudio desde Git, será necesario el enlace del repositorio en que se quiera trabajar. Se explicará cómo usar este enlace en una etapa posterior.
+Para vincular un repositorio de GitHub a RStudio desde Git, será necesario el enlace del repositorio en que se quiera trabajar.
 
 A este procedimiento se le conoce como autenticación. Es importante mencionar que, exiten dos opciones para vincular un repositorio. Es posible usar el formato de HTTPS o SSH los cuales tienen las siguientes características.
 
@@ -91,6 +94,13 @@ Se sugiere que el usuario emplee el protocolo HTTPS, por su eficiencia y facilid
 
 - *SSH*:
     Al elegir la opción SSH, será necesario crear claves SSH en cada ordenador que use para su proyecto, ya sea para enviar o extraer información del repositorio en GitHub. Para establecer la configuración SSH o cambiar de HTTPS a SSH puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
+	
+	
+*Más información puede consultarse en el siguiente*  **[enlace](https://docs.github.com/en/get-started/quickstart/set-up-git)**.
+
+	
+
+	### LINK de repositorio GitHub
 
 Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y dar clic al botón verde "Code".
 
@@ -98,10 +108,10 @@ Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y da
 <img src="imagen/link.png" alt="link" style="width:350px;"/>
 </p>
 
-*Más información puede consultarse en el siguiente*  **[enlace](https://docs.github.com/en/get-started/quickstart/set-up-git)**.
 
 ##  Trabajar con Git desde  Git Bash
 
+	
 	
 Al abrir Git Bash, seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
