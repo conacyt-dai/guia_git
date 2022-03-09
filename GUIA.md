@@ -198,7 +198,7 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
       <td> git status </td>
       <td> Revisar si hay cambios pendientes de confirmar </td>
     </tr>
-	   <tr>
+     <tr>
       <td> git reset HEAD nombre_archivo </td>
       <td> Regresa un archivo al último commit </td>
     </tr>
@@ -359,19 +359,19 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
   <tbody>
     <tr>
       <td> Git Bash </td>
-      <td>  --- </td>
+      <td>  oo </td>
     </tr>
     <tr>
-      <td> ---- </td>
-      <td>  -------------------------  </td>
+      <td> oo </td>
+      <td>  ooooooooooooooo  </td>
     </tr>
     <tr>
-      <td> ----- </td>
-      <td> ------------------------</td>
+      <td> oo </td>
+      <td> ooooooooooooooot </d>
     </tr>
     <tr>
-      <td> --- </td>
-      <td> ---------------------------------------- </td>
+      <td> oo </td>
+      <td> ooooooooooooooo </td>
     </tr>
  
 </table>
