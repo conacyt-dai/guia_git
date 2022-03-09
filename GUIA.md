@@ -153,6 +153,7 @@ Si se requiere publicar los cambios realizados en un solo archivo del repositori
 
 Para facilitar el uso de Git y resolver posibles dificultades con el uso de funciones se agrega una sección con los comandos Git y sus funciones más utilizadas.
 
+
 <table>
   <caption> <centre>                       Comandos básicos Git </centre></caption>
   <thead>
@@ -204,8 +205,7 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
     </tr>
 </table>
 
-
-
+	
 
 (1) Para usar este comando, previamente hay que verificar o guardar los cambios en la rama actual. La rama que se desea verificar debe estar en su repositorio local.
 
@@ -348,31 +348,13 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
 ## Glosario
 	
 	
-	<table>
-  <caption> <centre>                       Conceptos básicos </centre></caption>
-  <thead>
-    <tr>
-      <th> Concepto </th>
-      <th> Definición</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> Git Bash </td>
-      <td>  oo </td>
-    </tr>
-    <tr>
-      <td> oo </td>
-      <td>  ooooooooooooooo  </td>
-    </tr>
-    <tr>
-      <td> oo </td>
-      <td> ooooooooooooooot </d>
-    </tr>
-    <tr>
-      <td> oo </td>
-      <td> ooooooooooooooo </td>
-    </tr>
- 
-</table>
+	
+| Concepto | Definición | 
+|-----------|----------------|
+| Git Bash     | ooooooo   |
+| Linea de Comandos  | ooooooo | 
+| CVS | Sistema de Control de Versiones  | 
+| Branch | ooooo    | 
+| Librería | ooooo   |
+
 ## Referencias 
