@@ -344,3 +344,35 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
 </p>
 
 - *Para tener mayor documentación conservamos las sugerencias de RStudio: <http://rmarkdown.rstudio.com>.*
+
+## Glosario
+	
+	
+	<table>
+  <caption> <centre>                       Conceptos básicos </centre></caption>
+  <thead>
+    <tr>
+      <th> Concepto </th>
+      <th> Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Git Bash </td>
+      <td>  --- </td>
+    </tr>
+    <tr>
+      <td> ---- </td>
+      <td>  -------------------------  </td>
+    </tr>
+    <tr>
+      <td> ----- </td>
+      <td> ------------------------</td>
+    </tr>
+    <tr>
+      <td> --- </td>
+      <td> ---------------------------------------- </td>
+    </tr>
+ 
+</table>
+## Referencias 
