@@ -363,10 +363,17 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
 	
 | Concepto | Definición | 
 |-----------|----------------|
+| Git 			| xxx |
+| GitHub 		| xxx |
 | Git Bash     | ooooooo   |
 | Linea de Comandos  | ooooooo | 
-| CVS | Sistema de Control de Versiones  | 
-| Branch | ooooo    | 
-| Librería | ooooo   |
+| CVS 			| Sistema de Control de Versiones  | 
+| Branch o Rama		| ooooo    | 
+| Librería 		| ooooo   |
+| R  			| fff  |
+| Rstudio 		| rr  |
+| Markdown 		| xxx |
+| R Markdown  	| gg 	|
+
 
 ## Referencias 
