@@ -168,6 +168,10 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
       <td>  Se mostrará en pantalla una lista de los comandos más usados (incluidos los enlistados en está tabla) y una breve explicación </td>
    </tr> 
    <tr>
+     <td> git <comando> --help</td>
+     <td>  Para consultar las características de uso y función de un comando en específico </td>
+   </tr>
+   <tr>
       <td> git clone URL </td>
       <td>  Descargar un repositorio existente </td>
     </tr>
