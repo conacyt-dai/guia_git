@@ -184,24 +184,36 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
       <td> Para cambiar de una rama a otra (1) </td>
     </tr>
     <tr>
-      <td> Paso 1: cd carpeta/ <p>Paso 2: rm - rf .git </p>  </td>
-      <td> Eliminar un repositorio local </td>
+      <td> git merge nombre_fuente rama_destino </td>
+      <td> Mezclar los cambios de las ramas </td>
     </tr>
     <tr>
-      <td> git rm --cached nombre_directorio </td>
-      <td> Eliminar repositorio de seguimiento git </td>
+      <td> cd carpeta/ <p> rm - rf .git </p>  </td>
+      <td> Eliminar un repositorio local </td>
+    </tr>
+	<tr>
+      <td> git add nombre_archivo.ext </td>
+      <td> Agregar archivo a área de aterrizaje </td>
+    </tr>
+	<tr>
+      <td> git commit -m "descripción de cambios" </td>
+      <td> Guardar cambios que se subieron al área de aterrizaje </td>
+    </tr>
+    <tr>
+      <td> git rm -r --cached directorio </td>
+      <td> Eliminar repositorio y contenido </td>
     </tr>
     <tr>
       <td> git rm archivo </td>
       <td> Eliminar un archivo en particular </td>
     </tr>
     <tr>
-      <td> git status </td>
-      <td> Revisar si hay cambios pendientes de confirmar </td>
+      <td> git pull nombre_remoto nombre_rama </td>
+      <td> Actualizar los cambios de un repositorio remoto </td>
     </tr>
-     <tr>
-      <td> git reset HEAD nombre_archivo </td>
-      <td> Regresa un archivo al último commit </td>
+    <tr>
+      <td> git push nombre_remoto nombre_rama </td>
+      <td> Actualizar los cambios de tu rama al repositorio remoto asociado  </td>
     </tr>
 </table>
 
