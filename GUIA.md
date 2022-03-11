@@ -324,7 +324,7 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
 |-----------|----------------|
 | Git 			| xxx |
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
-| Git Bash     | ooooooo   |
+| Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
 | Linea de Comandos  | ooooooo | 
 | CVS 			| Sistema de Control de Versiones  | 
 | Branch o Rama		| ooooo    | 
