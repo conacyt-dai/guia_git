@@ -373,8 +373,7 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
 | Concepto | Definición | 
 |-----------|----------------|
 | Git 			| xxx |
-| GitHub 		| Plataforma para publicar, compartir y socializar
- código de programación. |
+| GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
 | Git Bash     | ooooooo   |
 | Linea de Comandos  | ooooooo | 
 | CVS 			| Sistema de Control de Versiones  | 
