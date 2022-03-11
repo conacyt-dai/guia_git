@@ -155,76 +155,10 @@ Si se requiere publicar los cambios realizados en un solo archivo del repositori
 Para facilitar el uso de Git y resolver posibles dificultades con el uso de funciones se agrega una sección con los comandos Git y sus funciones más utilizadas.
 
 
-<table>
-  <caption> <centre>                       Comandos básicos Git </centre></caption>
-  <thead>
-    <tr>
-      <th>Código</th>
-      <th>Uso</th>
-    </tr>
-  </thead>
-  <tbody>
-   <tr>
-      <td> git --help </td>
-      <td>  Se mostrará en pantalla una lista de los comandos más usados (incluidos los enlistados en está tabla) y una breve explicación </td>
-   </tr> 
-   <tr>
-     <td> git <comando> --help</td>
-     <td>  Para consultar las características de uso y función de un comando en específico </td>
-   </tr>
-   <tr>
-      <td> git clone URL </td>
-      <td>  Descargar un repositorio existente </td>
-    </tr>
-    <tr>
-      <td> git add nombre_archivo.ext </td>
-      <td> Agregar archivo a área de aterrizaje </td>
-    </tr>
-    <tr>
-      <td> git commit -m "descripción de cambios" </td>
-      <td> Guardar cambios que se subieron al área de aterrizaje </td>
-    </tr>  
-    <tr>
-      <td> git pull nombre_remoto nombre_rama </td>
-      <td> Actualizar los cambios de un repositorio remoto </td>
-    </tr>	    
-    <tr>
-      <td> git push nombre_remoto nombre_rama </td>
-      <td> Actualizar los cambios de tu rama al repositorio remoto asociado  </td>
-    </tr> 
-    <tr>
-      <td> git branch brnach_name </td>
-      <td>  Crear nuevo Branch  </td>
-    </tr> 
-    <tr>
-      <td> git branch --list </td>
-      <td> Visualizar Branch existentes </td>
-    </tr>
-    <tr>
-      <td> git branch -d branch_name </td>
-      <td> Eliminar Branch </td>
-    </tr>  
-    <tr>
-      <td> git checkout name_of_your_branch </td>
-      <td> Para cambiar de una rama a otra (1) </td>
-    </tr>  
-    <tr>
-      <td> git merge nombre_fuente rama_destino </td>
-      <td> Mezclar los cambios de las ramas </td>
-    </tr>  
-    <tr>
-      <td> git rm -r --cached directorio </td>
-      <td> Eliminar repositorio y contenido </td>
-    </tr>  
-    <tr>
-      <td> git rm archivo </td>
-      <td> Eliminar un archivo en particular </td>
-    </tr>
-    <tr>
-      <td> cd carpeta/ <p> rm - rf .git </p>  </td>
-      <td> Eliminar un repositorio local </td>
-    </tr>  
-</table>
+
+  
+
+
 
 	
 
