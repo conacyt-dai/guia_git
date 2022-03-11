@@ -154,7 +154,23 @@ Si se requiere publicar los cambios realizados en un solo archivo del repositori
 
 Para facilitar el uso de Git y resolver posibles dificultades con el uso de funciones se agrega una sección con los comandos Git y sus funciones más utilizadas.
 
-
+| Código  |    Uso |
+|----------|--------|     
+| `git --help ` | Se mostrará en pantalla una lista de los comandos más usados (incluidos los enlistados en está tabla) y una breve explicación |
+| `git <comando> --help ` | Para consultar las características de uso y función de un comando en específico |
+| `git clone URL ` | Descargar un repositorio existente| 
+| `git add nombre_archivo.ext ` | Agregar archivo a área de aterrizaje| 
+| `git commit -m " Mensaje de descripción de cambios" ` |Guardar cambios que se subieron al área de aterrizaje |
+| `git pull nombre_remoto nombre_rama ` | Actualizar los cambios de un repositorio remoto |   
+| `git push nombre_remoto nombre_rama ` | Actualizar los cambios de tu rama al repositorio remoto asociado| 
+| `git branch brnach_name ` |Crear nuevo Branch|  
+| `git branch --list ` |Visualizar Branch existentes| 
+| `git branch -d branch_name ` | Eliminar Branch| 
+| `git checkout name_of_your_branch ` |Para cambiar de una rama a otra (1) |
+| `git merge nombre_fuente rama_destino ` |Mezclar los cambios de las ramas|
+| `git rm -r --cached directorio ` |Eliminar repositorio y contenido |
+| `git rm archivo ` |Eliminar un archivo en particular| 
+| `cd carpeta/ …  rm - rf .git `  | Eliminar un repositorio local | 
 
   
 
