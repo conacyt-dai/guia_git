@@ -14,7 +14,8 @@
 <img src="imagen/logo2.png" alt="Files" style="width:200px;"/>
 </p>
 
-GitHub es conocida como la “plataforma de desarrollo de software líder en el mundo”, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. Además, permite registrar y ver cada cambio en el código y las carpetas de trabajo, permitiendo rastrear el progreso y, si es necesario, revertirlo. Es importante mencionar que esta plataforma fue **[adquirida por Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/)**. 
+GitHub es conocida como la “plataforma de desarrollo de software líder en el mundo”, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. 
+Además, permite registrar y ver cada cambio en el código y las carpetas de trabajo, permitiendo rastrear el progreso y, si es necesario, revertirlo. Es importante mencionar que esta plataforma fue **[adquirida por Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/)**. 
 
 #### Crear cuenta y repositorio
 
@@ -364,7 +365,8 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
 | Concepto | Definición | 
 |-----------|----------------|
 | Git 			| xxx |
-| GitHub 		| xxx |
+| GitHub 		| Plataforma para publicar, compartir y socializar
+ código de programación. |
 | Git Bash     | ooooooo   |
 | Linea de Comandos  | ooooooo | 
 | CVS 			| Sistema de Control de Versiones  | 
