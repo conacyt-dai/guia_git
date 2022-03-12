@@ -307,15 +307,6 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
 	 Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
 	 
 	
-	
-## Sugerencias para el uso de R Markdown 
-
-<p align="center">         
-<img src="imagen/logo3.png" alt="Rmarkdown" style="width:150px;"/>
-</p>
-
-- *Para tener mayor documentación conservamos las sugerencias de RStudio: <http://rmarkdown.rstudio.com>.*
-
 ## Glosario
 	
 	
