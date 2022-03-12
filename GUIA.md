@@ -212,26 +212,22 @@ Para poder vincular GitHub con RStudio es necesario hacer un procedimiento.
 
 0. Abrir Rstudio. 
 
-1. Ingresar la siguientes línes de código dentro del ***R Script*** (es decir, en la sección superior izquierda)
+1. Ingresar las siguientes líneas de código dentro del ***R Script*** (es decir, en la sección superior izquierda)
 
-<code>
-install.packages("usethis")
-library(usethis)
-</code>
 
-2. Escribir su nombre de usuario y correo que usó para generar la cuenta en GitHub en la siguiente línea de código. 
+- ` install.packages("usethis") `
+- ` library(usethis) `
 
-<code>
-usethis::use_git_config(user.name = "Tu_nombre_Usuario_GitHub", user.email = "tucorreo@correo.com")
-</code>
+2. Escribir su nombre de usuario y correo electrónico que usó para generar la cuenta en GitHub en la siguiente línea de código. 
 
-Recuerde reemplazar por los datos correctos del usuario. 
+
+- `usethis::use_git_config(user.name = "Tu_nombre_Usuario_GitHub", user.email = "tucorreo@correo.com")`
 
 Se sugiere que en este punto se tenga una cuenta de GitHub y un repositorio. Si no es así, puede ir a la sección sobre ***Crear cuenta y repositorio en GitHub***, de este documento. 
 
 #### Uso de RStudio para clonar
 
-Para Vincular RStudio al proyecto en GitHub, es necesario seguir las siguientes instrucciones. Si se desea conocer más sobre la vinculación de Git y  RStudio, se sugiere hacer click en la versión [extendida](https://cfss.uchicago.edu/setup/git-with-rstudio/).
+Para Vincular RStudio al proyecto en GitHub, es necesario seguir las siguientes instrucciones.
 
 
 1. Hacer clic en *”Files”*, luego *”New Project”*. 
@@ -252,13 +248,16 @@ Para Vincular RStudio al proyecto en GitHub, es necesario seguir las siguientes 
 4. Para terminar, cerramos el proyecto desde *File -> Close Project* antes de apagar RStudio a fin de evitar errores al recargar la interfaz en otra ocasión.
 
 
+Si se desea conocer más sobre la vinculación de Git y  RStudio, se sugiere consultar el siguiente [Documento](https://cfss.uchicago.edu/setup/git-with-rstudio/).
+
 
 ## Trabajar en RStudio desde una rama local 
 
-Para evitar problema al trabajar colaborativamente, tales como actualizaciones mietras se está trabajando sobre un repositorio, o dificultades al unir dos nuevas actualizaciones, se sugiere trabajar desde una **rama local**. También se sugiere seguir estos pasos, una vez que se sienta cómoda o cómodo trabajando en el entorno de Git y de RStudio. 
+Para evitar problemas tales como actualizaciones mietras se está trabajando sobre un repositorio, o dificultades al unir dos nuevas actualizaciones, se sugiere usar una **rama local**. 
 
+Para el uso de una rama local se puede seguir estos pasos: 
 
-1. ***Importante*** Se pinche en el símbolo morado para crear una rama local en la cual trabajaremos.
+1. ***Importante*** Pinche en el símbolo morado para crear una rama local en la cual trabajaremos.
 <p align="center">         
 <img src="imagen/morado.png" alt=" " style="width:250px;"/>
 </p>
@@ -270,11 +269,11 @@ La cual se configura únicamente para trabajar de manera local como se muestra e
 </p>
 
 
-Este paso se realiza para evitar problemas cuando haya cambios en la rama principal <code> main</code> . De preferencia, se hace esta acción cada vez que inicie un nuevo proyecto. Para evitar errores más adelante, el nombre de la rama no debe contener símbolos especiales, ni puntos, ni acentos ni espacios: se sugiere usar un nombre del tipo <code> rama_local </code> o bien <code> local </code>.
+Este paso se realiza para evitar problemas cuando haya cambios en la rama principal <code> main</code> . De preferencia, se hace esta acción cada vez que inicie un nuevo proyecto. Para evitar errores más adelante, el nombre de la rama no debe contener símbolos especiales, ni puntos, ni acentos ni espacios: se sugiere usar un nombre del tipo ` rama_local` o bien  `local`.
 
 2. Se trabaja normalmente, y se realizan todas las acciones y actualizaciones dentro de esta rama local.
 
-3. Se pincha  <code> Commit</code> dentro de la pestaña *Git* y escribe los comentarios necesarios para explicar nuestro trabajo realizado en la ventana que se abre. Asegúrese de seleccionar solo los archivos que deseemos actualizar.
+3. Se pincha  `Commit` dentro de la pestaña *Git* y escribe los comentarios necesarios para explicar nuestro trabajo realizado en la ventana que se abre. Asegúrese de seleccionar solo los archivos que deseemos actualizar.
 
 4. Junto al nombre de la rama local <code>rama_local</code> en la pestaña *Git* aparece un triángulo que apunta hacia abajo, se pinche y se cambia a la rama principal <code>main</code> Esto abre un mensaje que, si no hay errores, indicará que ha cambiado a la rama principal.
 
