@@ -38,7 +38,7 @@ Primero, Accede a este **[enlace](https://github.com/)** y crear una cuenta de G
 <img src="imagen/logo1.png" alt="git" style="width:200px;"/>
 </p>
 
-Git es un software creado por  **[Linus Torvals](https://es.wikipedia.org/wiki/Linus_Torvalds)** diseñado para mejorar la eficiencia, confiabilidad y compatibilidad de versiones de aplicaciones cuando están compuestas por un gran número de código fuente y participan vari@s desarrollador@s simultáneamente (**[Wikipedia](https://es.wikipedia.org/wiki/Git)**, **[Git](https://git-scm.com/)** ).
+Git es un software creado por  [Linus Torvals](https://es.wikipedia.org/wiki/Linus_Torvalds) diseñado para mejorar la eficiencia, confiabilidad y compatibilidad de versiones de aplicaciones cuando están compuestas por un gran número de código fuente y participan varias personas simultáneamente ([Wikipedia](https://es.wikipedia.org/wiki/Git), [Git](https://git-scm.com/) ).
 
 Con esta herramienta es posible actualizar el código desarrollado de manera colaborativa conservando un registro y control de versiones.
 
@@ -88,17 +88,17 @@ A este procedimiento se le conoce como autenticación. Es importante mencionar q
 
 Se sugiere que el usuario emplee el protocolo HTTPS, no sólo por su eficiencia y facilidad, sino también por cuestiones de seguridad en la red.  
 
-
 - **HTTPS**:
-
     Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de GitHub en Git.   
 	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de GitHub: 
 	
 	1. Instalar GitHub CLI
 	2. En la terminal de GitBash, escribir <code> gh auth login </code> y seguir las instrucciones.
-
+	
 - **SSH**:
     Al elegir la opción SSH, será necesario crear claves SSH en cada ordenador que use para su proyecto, ya sea para enviar o extraer información del repositorio en GitHub. Para establecer la configuración SSH o cambiar de HTTPS a SSH puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
+
+
 
 Por cuestiones de seguiridad se sugiere el uso del protocolo HTTPS (reduce los riresgos de  **[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)**
 ). 
