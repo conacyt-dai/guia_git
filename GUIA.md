@@ -83,9 +83,7 @@ Donde ***URL*** es el enlace para clonar desde la página de GitHub, su obtenci�
 
 Para vincular un repositorio de GitHub a RStudio desde Git, será necesario el enlace del repositorio en que se quiera trabajar.
 
-A este procedimiento se le conoce como autenticación. Es importante mencionar que, existen dos opciones para vincular un repositorio. Es posible usar el formato de HTTPS o SSH los cuales tienen las siguientes características.
-
-Se sugiere que el usuario emplee el protocolo HTTPS, por su eficiencia y facilidad. 
+A este procedimiento se le conoce como autenticación. Es importante mencionar que existen dos opciones para vincular un repositorio, los protocolos HTTPS y SSH, los cuales tienen las siguientes características.
 
 
 - *HTTPS*:
@@ -97,7 +95,10 @@ Se sugiere que el usuario emplee el protocolo HTTPS, por su eficiencia y facilid
 
 - *SSH*:
     Al elegir la opción SSH, será necesario crear claves SSH en cada ordenador que use para su proyecto, ya sea para enviar o extraer información del repositorio en GitHub. Para establecer la configuración SSH o cambiar de HTTPS a SSH puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
-	
+
+Por cuestiones de seguiridad se sugiere el uso del protocolo HTTPS (reduce los riresgos de  **[Tampering](https://)**.
+). 
+
 	
 *Más información sobre administración de repositorios remostos puede consultarse en el siguiente*  **[enlace](https://docs.github.com/en/get-started/quickstart/set-up-git)**.
 
