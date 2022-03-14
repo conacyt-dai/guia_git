@@ -297,7 +297,7 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 ## Buenas prácticas en el uso de Sistemas de Control de Versiones
 
-Para garantizar el control de la infromación y de los flujos de trabajo se recomienda lo siguiente:
+Para garantizar el control de la información y de los flujos de trabajo se recomienda lo siguiente:
 	
 	 Si se quiere proteger el código y la información, en primera instancia se recomienda configurar los repositorios como **privados**.
 	
@@ -306,7 +306,7 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
 	 Agregar un archivo que describa las características del proyecto.
 	
 	 Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
-	 
+
 	
 ## Glosario
 	
