@@ -325,6 +325,6 @@ Para garantizar el control de la infromación y de los flujos de trabajo se reco
 | Rstudio 		| rr  |
 | Markdown 		| xxx |
 | R Markdown  	| gg 	|
-
-
+| HTTPS  	| gg 	|
+| SSH  	| gg 	|
 ## Referencias 
