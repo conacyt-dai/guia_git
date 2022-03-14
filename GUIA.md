@@ -284,13 +284,13 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 3. Se pincha  `Commit` dentro de la pestaña **Git** y escribe los comentarios necesarios para explicar nuestro trabajo realizado en la ventana que se abre. Asegúrese de seleccionar solo los archivos que deseemos actualizar.
 
-4. Junto al nombre de la rama local <code>rama_local</code> en la pestaña *Git* aparece un triángulo que apunta hacia abajo, se pinche y se cambia a la rama principal <code>main</code> Esto abre un mensaje que, si no hay errores, indicará que ha cambiado a la rama principal.
+4. Junto al nombre de la rama local ` <crama_local` en la pestaña *Git* aparece un triángulo que apunta hacia abajo, se pinche y se cambia a la rama principal `main` Esto abre un mensaje que, si no hay errores, indicará que ha cambiado a la rama principal.
 
-5. Nuevamente se realiza <code>pull</code> porque podría haber actualizaciones realizadas por otro colaborador.
+5. Nuevamente se realiza `pull` porque podría haber actualizaciones realizadas por otro colaborador.
 
-6. En caso de que haya actualizaciones después de **descargar** la última versión del repositorio, nuevamente se hace <code> Commit </code>.  Note que ya se encuentra en la rama principal <code> main</code> del proyecto
+6. En caso de que haya actualizaciones después de **descargar** la última versión del repositorio, nuevamente se hace ` Commit `.  Note que ya se encuentra en la rama principal `main` del proyecto
 
-7. Se abre una consola a partir del menú <code> Tools -> Shell </code>
+7. Se abre una consola a partir del menú `Tools -> Shell `
 
 8. En la consola se escribe el siguiente comando: <code> git merge rama_local </code> donde <code> rama_local </code> es el nombre que se asignó a la rama local en la cual se trabajó. Esto se hace para *combinar* el trabajo local con la rama principal <code> main </code>  antes de subir las actualizaciones al repositorio. Se cierra la consola.
 
