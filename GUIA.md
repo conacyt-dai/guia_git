@@ -331,3 +331,12 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | SSH  	| **Secure Shell**, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
 
 ## Referencias 
+
+Benjamin Soltoff (2021). Computing for the Social Sciences. 
+
+Git (2022). Git Branching - Branches in a Nutshell. Consultado en:  https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching
+R Foundation (2022). What is R?. Consultado en : https://www.r-project.org/about.html
+RStudio (2022). RStudio. Consultado en: https://www.rstudio.com/products/rstudio/#:~:text=RStudio%20is%20an%20integrated%20development,history%2C%20debugging%20and%20workspace%20management.
+SSH (2022). SSH Protoco  Secure Remote Login and File Transfer. Consultado en : https://www.ssh.com/academy/ssh/protocol
+SSL (2022). What is HTTPS?. Consultado en: https://www.ssl.com/faqs/what-is-https/
+Webopedia (2021). Library. Consultado en : https://www.webopedia.com/definitions/library/
