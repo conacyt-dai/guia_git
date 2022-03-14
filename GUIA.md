@@ -198,8 +198,8 @@ En caso de querer profundizar en el manejo de esta herramienta y sus comandos av
 
 ## Instalar R y RStudio
 
-Antes de tener RStudio, se debe de instalar previamente R. Esto se puede consultar aquí:  [Descargar_R](https://cran.r-project.org/bin/windows/base/)
-Sobre las opciones de configuración, las que están predeterminadas permitirán el funcionamiento adecuado. Además, para conoce qué versión de R descargar, sea de 32 o de 64 bits, puede verificar siguiendo estos pasos: 
+Primero se debe instalar R, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/)
+Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de R. Además, para conocer qué versión de R descargar, sea de 32 o de 64 bits, puedes seguir los siguientes pasos: 
 
 1. Ingrese a **Configuración** de su ordenador
 
