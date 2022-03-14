@@ -17,7 +17,7 @@
 GitHub es conocida como la “plataforma de desarrollo de software líder en el mundo”, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. 
 Además, registra cada cambio en el código y las carpetas de trabajo para rastrear la evolución del proyecto y, si es necesario, revertir cambios.
  
- *Esta plataforma fue* **[adquirida por Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/)**. 
+ *Esta plataforma fue [adquirida por Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/)*. 
 
 #### Crear cuenta y repositorio
 
@@ -31,7 +31,7 @@ Primero, Accede a este **[enlace](https://github.com/)** y crear una cuenta de G
 
 4.- Listo, una vez seleccionadas las preferencias de configuración el nuevo repositorio se habrá creado.
 
-
+##
 ### Instalación de Git en Linux, Windows y macOS
 
 <p align="center">         
