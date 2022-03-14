@@ -19,7 +19,7 @@ Además, permite registrar y ver cada cambio en el código y las carpetas de tra
 
 #### Crear cuenta y repositorio
 
-Primero, Accede a este **[enlace](https://github.com/)** y crear una cuenta de GitHub, para ello vas a necesitar una dirección de correo electónico, generar un nombre de usuaria o usuario y una contraseña.
+Primero, Accede a este **[enlace](https://github.com/)** y crear una cuenta de GitHub, para ello vas a necesitar una dirección de correo electrónico, generar un nombre de usuaria o usuario y una contraseña.
 
 1.- Una vez creada la cuenta, en la parte superior derecha de la página de GitHub se observará un símbolo ' + '. 
 
@@ -81,13 +81,13 @@ Donde ***URL*** es el enlace para clonar desde la página de GitHub, su obtenci�
 
 Para vincular un repositorio de GitHub a RStudio desde Git, será necesario el enlace del repositorio en que se quiera trabajar.
 
-A este procedimiento se le conoce como autenticación. Es importante mencionar que, exiten dos opciones para vincular un repositorio. Es posible usar el formato de HTTPS o SSH los cuales tienen las siguientes características.
+A este procedimiento se le conoce como autenticación. Es importante mencionar que, existen dos opciones para vincular un repositorio. Es posible usar el formato de HTTPS o SSH los cuales tienen las siguientes características.
 
 Se sugiere que el usuario emplee el protocolo HTTPS, por su eficiencia y facilidad. 
 
 
 - *HTTPS*:
-    Si se elige el formato HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cahé las credenciales de GitHub en Git.   
+    Si se elige el formato HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de GitHub en Git.   
 	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de GitHub: 
 	
 	1. Instalar GitHub CLI
@@ -255,7 +255,7 @@ Si se desea conocer más sobre la vinculación de Git y  RStudio, se sugiere con
 
 ## Trabajar en RStudio desde una rama local 
 
-Para evitar problemas tales como actualizaciones mietras se está trabajando sobre un repositorio, o dificultades al unir dos nuevas actualizaciones, se sugiere usar una **rama local**. 
+Para evitar problemas tales como actualizaciones mientras se está trabajando sobre un repositorio, o dificultades al unir dos nuevas actualizaciones, se sugiere usar una **rama local**. 
 
 Para el uso de una rama local se puede seguir estos pasos: 
 
