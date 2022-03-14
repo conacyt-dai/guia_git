@@ -5,7 +5,7 @@
 
 ## Introducción
 
-<p style="text-align:justify">Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía para el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas. Primero se muestran instrucciones sobre la instalación y posteriormente se explica cómo configurar e iniciar un proyecto desde RStudio o desde Git.</p>
+<p style="text-align:justify">Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía para el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas. En el presente documento primero se muestran instrucciones sobre la instalación y posteriormente se explica cómo configurar e iniciar un proyecto desde RStudio o desde Git.</p>
 
 ##
 ### GitHub
@@ -15,7 +15,9 @@
 </p>
 
 GitHub es conocida como la “plataforma de desarrollo de software líder en el mundo”, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. 
-Además, permite registrar y ver cada cambio en el código y las carpetas de trabajo, permitiendo rastrear el progreso y, si es necesario, revertirlo. Es importante mencionar que esta plataforma fue **[adquirida por Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/)**. 
+Además, registra cada cambio en el código y las carpetas de trabajo para rastrear la evolución del proyecto y, si es necesario, revertir cambios.
+ 
+ *Esta plataforma fue* **[adquirida por Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/)**. 
 
 #### Crear cuenta y repositorio
 
