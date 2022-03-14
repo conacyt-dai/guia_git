@@ -327,16 +327,19 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
 | Linea de Comandos  | ooooooo | 
 | Branch o Rama		| Es una divergencia de la línea principal de desarrollo, la cual permite trabajar sin arriunar la línea principal.    | 
-| Librería 		| ooooo   |
-| R  			| fff  |
-| Rstudio 		| rr  |
-| Markdown 		| xxx |
-| R Markdown  	| gg 	|
+| Librería 		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear.   |
+| R  			| "Es un lenguaje y ambiente para el cómputo estadístico y graficación", además de ser multiusos.  |
+| Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otroas opciones. |
+| Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto.  |
+| R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
 | HTTPS  	| *Hypertext Transfer Protocol Secure* por su significado en Inglés, es una versión del protocolo HTTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
 | SSH  	| Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
+<<<<<<< HEAD
 | Tampering | Concepto|
 
 
+=======
+>>>>>>> jesus-mejora
 
 ## Referencias 
 
