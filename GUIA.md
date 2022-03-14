@@ -53,8 +53,8 @@ Sobre la instalación, las opciones predeterminadas permitirán el funcionamient
 
 Como recomendación, se podrá crear una carpeta "repositorio" en la siguiente ubicación de tu ordenador:
 
-C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>
-	
+- `C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>`
+  
 En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git puedes seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**.
 
 
