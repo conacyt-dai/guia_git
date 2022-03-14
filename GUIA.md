@@ -334,12 +334,8 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
 | HTTPS  	| *Hypertext Transfer Protocol Secure* por su significado en Inglés, es una versión del protocolo HTTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
 | SSH  	| Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
-<<<<<<< HEAD
 | Tampering | Concepto|
 
-
-=======
->>>>>>> jesus-mejora
 
 ## Referencias 
 
