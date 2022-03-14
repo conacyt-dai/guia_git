@@ -329,26 +329,19 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | Git 			| xxx |
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
+| HTTPS  	| **Hypertext Transfer Protocol Secure** por su significado en Inglés, es una versión del protocolo H TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
 | Linea de Comandos  | ooooooo | 
 | Librería 		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear.   |
 | Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto.  |
 | R  			| "Es un lenguaje y ambiente para el cómputo estadístico y graficación", además de ser multiusos.  |
-| Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otroas opciones. |
 | R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
-| HTTPS  	| **Hypertext Transfer Protocol Secure** por su significado en Inglés, es una versión del protocolo H	TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
+| Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otroas opciones. |
 | SSH  	| **Secure Shell**, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
 | Tampering | Concepto|
 
 
 ## Referencias 
 
-<<<<<<< HEAD
-
-
-st => inicio: inicio
- e => fin: fin
-
-st->e
 =======
 Benjamin Soltoff (2021). Computing for the Social Sciences. 
 
@@ -358,4 +351,3 @@ RStudio (2022). RStudio. Consultado en: https://www.rstudio.com/products/rstudio
 SSH (2022). SSH Protoco  Secure Remote Login and File Transfer. Consultado en : https://www.ssh.com/academy/ssh/protocol
 SSL (2022). What is HTTPS?. Consultado en: https://www.ssl.com/faqs/what-is-https/
 Webopedia (2021). Library. Consultado en : https://www.webopedia.com/definitions/library/
->>>>>>> jesus-mejora
