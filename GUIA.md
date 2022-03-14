@@ -175,8 +175,7 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
 | `git merge nombre_fuente rama_destino ` |Mezclar los cambios de las ramas|
 | `git rm -r --cached directorio ` |Eliminar repositorio y contenido |
 | `git rm archivo ` |Eliminar un archivo en particular| 
-| `cd carpeta/ …  rm - rf .git `  | Eliminar un repositorio local | 
-
+| (1) `cd carpeta/`  (2) `rm - rf .git `  | Eliminar un repositorio local | 
   
 
 
