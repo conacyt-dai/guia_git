@@ -276,8 +276,9 @@ La cual se configura únicamente para trabajar de manera local como se muestra e
 <img src="imagen/local.png" alt=" " style="width:250px;"/>
 </p>
 
+Este paso se realiza para evitar problemas cuando haya cambios en la rama principal  ` main`. De preferencia, se hace esta acción cada vez que inicie un nuevo proyecto. Para evitar errores más adelante, el nombre de la rama no debe contener símbolos especiales, ni puntos, ni acentos ni espacios: se sugiere usar un nombre del tipo ` rama_local` o bien  `local`.
 
-Este paso se realiza para evitar problemas cuando haya cambios en la rama principal <code> main</code> . De preferencia, se hace esta acción cada vez que inicie un nuevo proyecto. Para evitar errores más adelante, el nombre de la rama no debe contener símbolos especiales, ni puntos, ni acentos ni espacios: se sugiere usar un nombre del tipo ` rama_local` o bien  `local`.
+
 
 2. Se trabaja normalmente, y se realizan todas las acciones y actualizaciones dentro de esta rama local.
 
