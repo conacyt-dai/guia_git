@@ -328,16 +328,12 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | Rstudio 		| rr  |
 | Markdown 		| xxx |
 | R Markdown  	| gg 	|
-<<<<<<< HEAD
-| HTTPS  	| gg 	|
-| SSH  	| gg 	|
+| HTTPS  	| *Hypertext Transfer Protocol Secure* por su significado en Inglés, es una versión del protocolo HTTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
+| SSH  	| Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
 | Tampering | Concepto|
 
 
-=======
-| HTTPS  	| *Hypertext Transfer Protocol Secure* por su significado en Inglés, es una versión del protocolo HTTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
-| SSH  	| Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
->>>>>>> jesus-mejora
+
 ## Referencias 
 
 
