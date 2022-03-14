@@ -316,17 +316,17 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 	
 | Concepto | Definición | 
 |-----------|----------------|
+| CVS 			| Sistema de Control de Versiones  | 
 | Git 			| xxx |
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
 | Linea de Comandos  | ooooooo | 
-| CVS 			| Sistema de Control de Versiones  | 
-| Branch o Rama		| ooooo    | 
+| Branch o Rama		| Es una divergencia de la línea principal de desarrollo, la cual permite trabajar sin arriunar la línea principal.    | 
 | Librería 		| ooooo   |
 | R  			| fff  |
 | Rstudio 		| rr  |
 | Markdown 		| xxx |
 | R Markdown  	| gg 	|
-| HTTPS  	| gg 	|
-| SSH  	| gg 	|
+| HTTPS  	| *Hypertext Transfer Protocol Secure* por su significado en Inglés, es una versión del protocolo HTTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
+| SSH  	| Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
 ## Referencias 
