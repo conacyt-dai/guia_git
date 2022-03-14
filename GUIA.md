@@ -31,7 +31,7 @@ Primero, Accede a este **[enlace](https://github.com/)** y crear una cuenta de G
 
 4.- Listo, una vez seleccionadas las preferencias de configuración el nuevo repositorio se habrá creado.
 
-
+##
 ### Instalación de Git en Linux, Windows y macOS
 
 <p align="center">         
