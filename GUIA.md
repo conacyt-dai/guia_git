@@ -302,13 +302,17 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 Para garantizar el control de la información y de los flujos de trabajo se recomienda lo siguiente:
 	
-	 Si se quiere proteger el código y la información, en primera instancia se recomienda configurar los repositorios como **privados**.
+- Si se quiere proteger el código y la información, en primera instancia se recomienda configurar los repositorios como **privados**.
 	
-	 En el uso de datos, es importante evaluar la existencia de datos **personales y/o sensibles** para removerlos o anonimizarlos antes de subirlos a los repositorios.
+- En el uso de datos, es importante evaluar la existencia de datos **personales y/o sensibles** para removerlos o anonimizarlos antes de subirlos a los repositorios.
 	
-	 Agregar un archivo que describa las características del proyecto.
+- Agregar un archivo que describa las características del proyecto.
 	
-	 Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
+- Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
+
+	
+
+
 
 	
 ## Glosario
