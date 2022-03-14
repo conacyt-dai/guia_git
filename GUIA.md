@@ -149,7 +149,9 @@ Si se requiere publicar los cambios realizados en un solo archivo del repositori
 - ` git commit -m "Mensaje sobre la actualización realizada" `
 - ` git push `
 
-
+Para desvincular tu cuenta de un repositorio colaborativo puedes consultar la siguiente **[documentación](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/removing-yourself-from-a-collaborators-repository)**
+	
+	
 ### Comandos Git
 
 Para facilitar el uso de Git y resolver posibles dificultades con el uso de funciones se agrega una sección con los comandos Git y sus funciones más utilizadas.
