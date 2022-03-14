@@ -175,7 +175,7 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
 | `git branch brnach_name ` |Crear nuevo Branch|  
 | `git branch --list ` |Visualizar Branch existentes| 
 | `git branch -d branch_name ` | Eliminar Branch| 
-| `git checkout name_of_your_branch ` |Para cambiar de una rama a otra (*) |
+| `git checkout name_of_your_branch ` |Para cambiar de una rama a otra (1) |
 | `git merge nombre_fuente rama_destino ` |Mezclar los cambios de las ramas|
 | `git rm -r --cached directorio ` |Eliminar repositorio y contenido |
 | `git rm archivo ` |Eliminar un archivo en particular| 
@@ -186,7 +186,7 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
 
 	
 
-(*) Para usar este comando, previamente hay que verificar o guardar los cambios en la rama actual. La rama que se desea verificar debe estar en su repositorio local.
+(1) Para usar este comando, previamente hay que verificar o guardar los cambios en la rama actual. La rama que se desea verificar debe estar en su repositorio local.
 
 En caso de querer profundizar en el manejo de esta herramienta y sus comandos avanzados, te sugerimos descargar la guía oficial de Git a través del siguiente link [Downloads](https://git-scm.com/book).
             
@@ -199,7 +199,7 @@ En caso de querer profundizar en el manejo de esta herramienta y sus comandos av
 ## Instalar R y RStudio
 
 Primero se debe instalar R, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/)
-Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de R. Además, para conocer qué versión de R descargar, sea de 32 o de 64 bits, puedes seguir los siguientes pasos: 
+Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de R. Además, para conocer qué versión de R descargar ( 32 o 64 bits), en Windows puedes seguir los siguientes pasos: 
 
 1. Ingrese a **Configuración** de su ordenador
 
