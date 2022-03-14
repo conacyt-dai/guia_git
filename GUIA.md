@@ -331,7 +331,7 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
 | HTTPS  	| **Hypertext Transfer Protocol Secure** por su significado en Inglés, es una versión del protocolo H TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
-| Linea de Comandos  | ooooooo | 
+| Linea de Comandos  | También conocido como Command Line Interface (CLI), procesa instrucciones en forma de texto para un programa de computadora. | 
 | Librería 		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear.   |
 | Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto.  |
 | R  			| "Es un lenguaje y ambiente para el cómputo estadístico y graficación", además de ser multiusos.  |
@@ -339,7 +339,7 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | R Script 		| Archivo de texto editable que contiene código y comentarios que posteriormente pueden ser ejecutados |
 | Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otras opciones. |
 | SSH  	| **Secure Shell**, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
-| Tampering | Concepto|
+| Tampering | Es un parámetro de seguridad que permite manipular el intercambio de información entre usuarios y computadoras, para modificar datos, tales como credenciales o permisos. |
 
 
 ## Referencias 
