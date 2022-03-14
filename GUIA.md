@@ -336,7 +336,8 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto.  |
 | R  			| "Es un lenguaje y ambiente para el cómputo estadístico y graficación", además de ser multiusos.  |
 | R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
-| Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otroas opciones. |
+| R Script 		| Archivo de texto editable que contiene código y comentarios que posteriormente pueden ser ejecutados |
+| Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otras opciones. |
 | SSH  	| **Secure Shell**, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
 | Tampering | Concepto|
 
