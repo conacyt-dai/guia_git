@@ -83,19 +83,14 @@ Donde **URL** es el enlace para clonar desde la página de GitHub, su obtención
 
 Para vincular un repositorio de GitHub a RStudio desde Git, será necesario el enlace del repositorio en que se quiera trabajar.
 
-<<<<<<< HEAD
+
 A este procedimiento se le conoce como autenticación. Es importante mencionar que existen dos opciones para vincular un repositorio, los protocolos HTTPS y SSH, los cuales tienen las siguientes características.
-
-
-- *HTTPS*:
-=======
-A este procedimiento se le conoce como autenticación. Es importante mencionar que, existen dos opciones para vincular un repositorio. Es posible usar el formato de HTTPS o SSH los cuales tienen las siguientes características.
 
 Se sugiere que el usuario emplee el protocolo HTTPS, no sólo por su eficiencia y facilidad, sino también por cuestiones de seguridad en la red.  
 
 
 - **HTTPS**:
->>>>>>> jesus-mejora
+
     Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de GitHub en Git.   
 	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de GitHub: 
 	
@@ -341,14 +336,10 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | R  			| "Es un lenguaje y ambiente para el cómputo estadístico y graficación", además de ser multiusos.  |
 | Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otroas opciones. |
 | R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
-<<<<<<< HEAD
-| SSH  	| Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
-| Tampering | Concepto|
-
-=======
 | HTTPS  	| **Hypertext Transfer Protocol Secure** por su significado en Inglés, es una versión del protocolo H	TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
 | SSH  	| **Secure Shell**, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
->>>>>>> jesus-mejora
+| Tampering | Concepto|
+
 
 ## Referencias 
 
