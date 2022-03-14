@@ -96,7 +96,7 @@ A este procedimiento se le conoce como autenticación. Es importante mencionar q
 - *SSH*:
     Al elegir la opción SSH, será necesario crear claves SSH en cada ordenador que use para su proyecto, ya sea para enviar o extraer información del repositorio en GitHub. Para establecer la configuración SSH o cambiar de HTTPS a SSH puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
 
-Por cuestiones de seguiridad se sugiere el uso del protocolo HTTPS (reduce los riresgos de  **[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)**.
+Por cuestiones de seguiridad se sugiere el uso del protocolo HTTPS (reduce los riresgos de  **[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)**
 ). 
 
 	
