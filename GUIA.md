@@ -199,7 +199,7 @@ En caso de querer profundizar en el manejo de esta herramienta y sus comandos av
 ## Instalar R y RStudio
 
 Primero se debe instalar R, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/)
-Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de R. Además, para conocer qué versión de R descargar ( 32 o 64 bits), en Windows puedes seguir los siguientes pasos: 
+Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de R. Además, para saber qué versión de R descargar ( 32 o 64 bits), en Windows puedes seguir los siguientes pasos: 
 
 1. Ingrese a **Configuración** de su ordenador
 
@@ -292,13 +292,13 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 7. Se abre una consola a partir del menú `Tools -> Shell `
 
-8. En la consola se escribe el siguiente comando: <code> git merge rama_local </code> donde <code> rama_local </code> es el nombre que se asignó a la rama local en la cual se trabajó. Esto se hace para *combinar* el trabajo local con la rama principal <code> main </code>  antes de subir las actualizaciones al repositorio. Se cierra la consola.
+8. En la consola se escribe el siguiente comando:  `git merge rama_local` donde `rama_local` es el nombre que se asignó a la rama local en la cual se trabajó. Esto se hace para **combinar** el trabajo local con la rama principal ` main`  antes de subir las actualizaciones al repositorio. Se cierra la consola.
 
-9. A continuación, se hace <code> push </code> del trabajo. Esto se logra pinchando la flecha verde que apunta hacia arriba. Esto actualización el repositorio.
+9. A continuación, se hace ` push ` del trabajo. Esto se logra pinchando la flecha verde que apunta hacia arriba. Esto actualizará el repositorio.
 
-10. Se elimina la **rama local** al escribir en la consola el siguiente comando: <code> git branch -d rama_local</code> . Una vez hecho esto, se cierra la consola. 
+10. Se elimina la **rama local** al escribir en la consola el siguiente comando: ` git branch -d rama_local` . Una vez hecho esto, se cierra la consola. 
 
-11. Para concluir, se cierra el proyecto desde <code> File -> Close Project </code> antes de cerrar RStudio para evitar errores al cargar la interfaz en una próxima ocasión.
+11. Para concluir, se cierra el proyecto desde ` File -> Close Project ` antes de cerrar RStudio para evitar errores al cargar la interfaz en una próxima ocasión.
 
 12. Cuando se reabra el proyecto una próxima vez, se puede comenzar desde acceder a una **rama local**. Disfrute :Happy_face: 
 
