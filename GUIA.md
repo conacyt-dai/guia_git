@@ -100,7 +100,7 @@ Por cuestiones de seguiridad se sugiere el uso del protocolo HTTPS (reduce los r
 ). 
 
 	
-*Más información sobre administración de repositorios remostos puede consultarse en el siguiente*  **[enlace](https://docs.github.com/en/get-started/quickstart/set-up-git)**.
+*Más información sobre administración de repositorios remotos puede consultarse en el siguiente*  **[enlace](https://docs.github.com/en/get-started/quickstart/set-up-git)**.
 
 	
 
