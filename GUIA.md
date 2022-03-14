@@ -72,28 +72,37 @@ Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
 -  `cd Documents/nuevo_repositorio`
 
 
-Lo anterior agrega la carpeta *nuevo_repositorio* a git, reconociéndola como repositorio. Posteriormente, para clonar el repositorio de GitHub:
+Lo anterior agrega la carpeta **nuevo_repositorio** a git, reconociéndola como repositorio. Posteriormente, para clonar el repositorio de GitHub:
 
-- `git clone URL`
+- `git clone <URL>`
 
-Donde ***URL*** es el enlace para clonar desde la página de GitHub, su obtención se explica en la siguiente sección. 
+Donde **URL** es el enlace para clonar desde la página de GitHub, su obtención se explica en la siguiente sección. 
 
 
 #### Autenticación 
 
 Para vincular un repositorio de GitHub a RStudio desde Git, será necesario el enlace del repositorio en que se quiera trabajar.
 
+<<<<<<< HEAD
 A este procedimiento se le conoce como autenticación. Es importante mencionar que existen dos opciones para vincular un repositorio, los protocolos HTTPS y SSH, los cuales tienen las siguientes características.
 
 
 - *HTTPS*:
+=======
+A este procedimiento se le conoce como autenticación. Es importante mencionar que, existen dos opciones para vincular un repositorio. Es posible usar el formato de HTTPS o SSH los cuales tienen las siguientes características.
+
+Se sugiere que el usuario emplee el protocolo HTTPS, no sólo por su eficiencia y facilidad, sino también por cuestiones de seguridad en la red.  
+
+
+- **HTTPS**:
+>>>>>>> jesus-mejora
     Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de GitHub en Git.   
 	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de GitHub: 
 	
 	1. Instalar GitHub CLI
 	2. En la terminal de GitBash, escribir <code> gh auth login </code> y seguir las instrucciones.
 
-- *SSH*:
+- **SSH**:
     Al elegir la opción SSH, será necesario crear claves SSH en cada ordenador que use para su proyecto, ya sea para enviar o extraer información del repositorio en GitHub. Para establecer la configuración SSH o cambiar de HTTPS a SSH puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
 
 Por cuestiones de seguiridad se sugiere el uso del protocolo HTTPS (reduce los riresgos de  **[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)**
@@ -163,7 +172,7 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
 |----------|--------|     
 | `git --help ` | Se mostrará en pantalla una lista de los comandos más usados (incluidos los enlistados en está tabla) y una breve explicación |
 | `git <comando> --help ` | Para consultar las características de uso y función de un comando en específico |
-| `git clone URL ` | Descargar un repositorio existente| 
+| `git clone <URL> ` | Descargar un repositorio existente| 
 | `git add nombre_archivo.ext ` | Agregar archivo a área de aterrizaje| 
 | `git commit -m " Mensaje de descripción de cambios" ` |Guardar cambios que se subieron al área de aterrizaje |
 | `git pull nombre_remoto nombre_rama ` | Actualizar los cambios de un repositorio remoto |   
@@ -216,7 +225,7 @@ Para poder vincular GitHub con RStudio es necesario hacer un procedimiento.
 
 0. Abrir Rstudio. 
 
-1. Ingresar las siguientes líneas de código dentro del ***R Script*** (es decir, en la sección superior izquierda)
+1. Ingresar las siguientes líneas de código dentro del **R Script** (es decir, en la sección superior izquierda)
 
 
 - ` install.packages("usethis") `
@@ -227,29 +236,29 @@ Para poder vincular GitHub con RStudio es necesario hacer un procedimiento.
 
 - `usethis::use_git_config(user.name = "Tu_nombre_Usuario_GitHub", user.email = "tucorreo@correo.com")`
 
-Se sugiere que en este punto se tenga una cuenta de GitHub y un repositorio. Si no es así, puede ir a la sección sobre ***Crear cuenta y repositorio en GitHub***, de este documento. 
+Se sugiere que en este punto se tenga una cuenta de GitHub y un repositorio. Si no es así, puede ir a la sección sobre **Crear cuenta y repositorio en GitHub**, de este documento. 
 
 #### Uso de RStudio para clonar
 
 Para Vincular RStudio al proyecto en GitHub, es necesario seguir las siguientes instrucciones.
 
 
-1. Hacer clic en *”Files”*, luego *”New Project”*. 
+1. Hacer clic en **”Files”**, luego **”New Project”**.
 
 <p align="center">         
 <img src="imagen/File_RStudio.png" alt="Files" style="width:350px;"/>
 </p>
 
-2. Dar clic en *“New Directory”*, posteriormente verá un listado de opciones, selecciones *“New Project”*. Se abrirá una imagen relativa a crear un proyecto nuevo.
+2. Dar clic en **“New Directory”**, posteriormente verá un listado de opciones, selecciones **“New Project”**. Se abrirá una imagen relativa a crear un proyecto nuevo.
 
 <p align="center">         
 <img src="imagen/new_project.png" alt="New Project" style="width:350px;"/>
 </p>
 
 
-3. Una vez en la pestaña que se muestra, escriba el nombre del Directorio, haga match en *“Create a git repository”* y se sugiere *“Open in new session”*.
+3. Una vez en la pestaña que se muestra, escriba el nombre del Directorio, haga match en **“Create a git repository”** y se sugiere **“Open in new session”**.
 
-4. Para terminar, cerramos el proyecto desde *File -> Close Project* antes de apagar RStudio a fin de evitar errores al recargar la interfaz en otra ocasión.
+4. Para terminar, cerramos el proyecto desde **File -> Close Project** antes de apagar RStudio a fin de evitar errores al recargar la interfaz en otra ocasión.
 
 
 Si se desea conocer más sobre la vinculación de Git y  RStudio, se sugiere consultar el siguiente [Documento](https://cfss.uchicago.edu/setup/git-with-rstudio/).
@@ -261,7 +270,7 @@ Para evitar problemas tales como actualizaciones mientras se está trabajando so
 
 Para el uso de una rama local se puede seguir estos pasos: 
 
-1. ***Importante*** Pinche en el símbolo morado para crear una rama local en la cual trabajaremos.
+1. **Importante** Pinche en el símbolo morado para crear una rama local en la cual trabajaremos.
 <p align="center">         
 <img src="imagen/morado.png" alt=" " style="width:250px;"/>
 </p>
@@ -277,13 +286,13 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 2. Se trabaja normalmente, y se realizan todas las acciones y actualizaciones dentro de esta rama local.
 
-3. Se pincha  `Commit` dentro de la pestaña *Git* y escribe los comentarios necesarios para explicar nuestro trabajo realizado en la ventana que se abre. Asegúrese de seleccionar solo los archivos que deseemos actualizar.
+3. Se pincha  `Commit` dentro de la pestaña **Git** y escribe los comentarios necesarios para explicar nuestro trabajo realizado en la ventana que se abre. Asegúrese de seleccionar solo los archivos que deseemos actualizar.
 
 4. Junto al nombre de la rama local <code>rama_local</code> en la pestaña *Git* aparece un triángulo que apunta hacia abajo, se pinche y se cambia a la rama principal <code>main</code> Esto abre un mensaje que, si no hay errores, indicará que ha cambiado a la rama principal.
 
 5. Nuevamente se realiza <code>pull</code> porque podría haber actualizaciones realizadas por otro colaborador.
 
-6. En caso de que haya actualizaciones después de *descargar* la última versión del repositorio, nuevamente se hace <code> Commit </code>.  Note que ya se encuentra en la rama principal <code> main</code> del proyecto
+6. En caso de que haya actualizaciones después de **descargar** la última versión del repositorio, nuevamente se hace <code> Commit </code>.  Note que ya se encuentra en la rama principal <code> main</code> del proyecto
 
 7. Se abre una consola a partir del menú <code> Tools -> Shell </code>
 
@@ -291,11 +300,11 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 9. A continuación, se hace <code> push </code> del trabajo. Esto se logra pinchando la flecha verde que apunta hacia arriba. Esto actualización el repositorio.
 
-10. Se elimina la *rama local* al escribir en la consola el siguiente comando: <code> git branch -d rama_local</code> . Una vez hecho esto, se cierra la consola. 
+10. Se elimina la **rama local** al escribir en la consola el siguiente comando: <code> git branch -d rama_local</code> . Una vez hecho esto, se cierra la consola. 
 
 11. Para concluir, se cierra el proyecto desde <code> File -> Close Project </code> antes de cerrar RStudio para evitar errores al cargar la interfaz en una próxima ocasión.
 
-12. Cuando se reabra el proyecto una próxima vez, se puede comenzar desde acceder a una ***rama local***. Disfrute :Happy_face: 
+12. Cuando se reabra el proyecto una próxima vez, se puede comenzar desde acceder a una **rama local**. Disfrute :Happy_face: 
 
 ## Buenas prácticas en el uso de Sistemas de Control de Versiones
 
@@ -332,9 +341,14 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | R  			| "Es un lenguaje y ambiente para el cómputo estadístico y graficación", además de ser multiusos.  |
 | Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otroas opciones. |
 | R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
+<<<<<<< HEAD
 | SSH  	| Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
 | Tampering | Concepto|
 
+=======
+| HTTPS  	| **Hypertext Transfer Protocol Secure** por su significado en Inglés, es una versión del protocolo H	TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
+| SSH  	| **Secure Shell**, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
+>>>>>>> jesus-mejora
 
 ## Referencias 
 
