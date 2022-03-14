@@ -327,7 +327,7 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 |-----------|----------------|
 | Branch o Rama		| Es una divergencia de la línea principal de desarrollo, la cual permite trabajar sin arriunar la línea principal.    | 
 | CVS 			| Sistema de Control de Versiones  | 
-| Git 			| xxx |
+| Git 			| Es un Sistema de Control de Versiones que permite dar seguimiento de forma colaborativa a un proyecto.  |
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
 | HTTPS  	| **Hypertext Transfer Protocol Secure** por su significado en Inglés, es una versión del protocolo H TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
@@ -344,12 +344,12 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 
 ## Referencias 
 
-=======
-Benjamin Soltoff (2021). Computing for the Social Sciences. 
+Benjamin Soltoff (2021). Computing for the Social Sciences. Consultado en: https://cfss.uchicago.edu/  <br/>
+GitHub (2022). GitHub Docs. Consutado en: https://docs.github.com/es/get-started <br/> 
 
-Git (2022). Git Branching - Branches in a Nutshell. Consultado en:  https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching
-R Foundation (2022). What is R?. Consultado en : https://www.r-project.org/about.html
-RStudio (2022). RStudio. Consultado en: https://www.rstudio.com/products/rstudio/#:~:text=RStudio%20is%20an%20integrated%20development,history%2C%20debugging%20and%20workspace%20management.
-SSH (2022). SSH Protoco  Secure Remote Login and File Transfer. Consultado en : https://www.ssh.com/academy/ssh/protocol
-SSL (2022). What is HTTPS?. Consultado en: https://www.ssl.com/faqs/what-is-https/
-Webopedia (2021). Library. Consultado en : https://www.webopedia.com/definitions/library/
+Git (2022). Git Branching - Branches in a Nutshell. Consultado en:  https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching <br/>
+R Foundation (2022). What is R?. Consultado en : https://www.r-project.org/about.html <br/>
+RStudio (2022). RStudio. Consultado en: https://www.rstudio.com/products/rstudio/#:~:text=RStudio%20is%20an%20integrated%20development,history%2C%20debugging%20and%20workspace%20management. <br/>
+SSH (2022). SSH Protoco  Secure Remote Login and File Transfer. Consultado en : https://www.ssh.com/academy/ssh/protocol <br/>
+SSL (2022). What is HTTPS?. Consultado en: https://www.ssl.com/faqs/what-is-https/ <br/>
+Webopedia (2021). Library. Consultado en : https://www.webopedia.com/definitions/library/ <br/>
