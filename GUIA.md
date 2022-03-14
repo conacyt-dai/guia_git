@@ -89,7 +89,7 @@ Se sugiere que el usuario emplee el protocolo HTTPS, por su eficiencia y facilid
 
 
 - *HTTPS*:
-    Si se elige el formato HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de GitHub en Git.   
+    Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de GitHub en Git.   
 	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de GitHub: 
 	
 	1. Instalar GitHub CLI
