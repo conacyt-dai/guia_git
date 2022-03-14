@@ -209,7 +209,7 @@ Las opciones de configuración predeterminadas permitirán el funcionamiento ade
 
 4. Visualice la opción de **Tipo de Sistema**. Ahí se identifica si es de 32 o 64 bits. 
 
-Una vez que se tiene R, es posible descargar RStudio desde aquí: [Descargar_RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+Una vez que se tiene R, es posible descargar RStudio desde aquí: [Descargar RStudio](https://www.rstudio.com/products/rstudio/download/#download)
 
 ### Preparar RStudio 
 <p align="center">         
