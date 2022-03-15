@@ -320,7 +320,7 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
 | HTTPS  	| Hypertext Transfer Protocol Secure por su significado en Inglés, es una versión del protocolo H TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
 | Línea de Comandos  | También conocido como Command Line Interface (CLI), procesa instrucciones en forma de texto para un programa de computadora. | 
-| Librería 		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear".   |
+| Biblioteca		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear".   |
 | Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto.  |
 | R  			| "Es un lenguaje y ambiente para el cómputo estadístico y graficación", además de ser multiusos.  |
 | R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
