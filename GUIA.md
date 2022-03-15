@@ -1,16 +1,13 @@
+### Git
+<p align="center">         
+<img src="imagen/logo1.png" alt="git" style="width:200px;"/>
+</p>
 
-# Guía Básica para el uso de Git y GitHub 
+Git es un software creado por  [Linus Torvals](https://es.wikipedia.org/wiki/Linus_Torvalds) diseñado para mejorar la eficiencia, confiabilidad y compatibilidad de versiones de aplicaciones cuando están compuestas por un gran número de código fuente y participan varias personas simultáneamente ([Wikipedia](https://es.wikipedia.org/wiki/Git), [Git](https://git-scm.com/) ).
 
->                                                  Gobierno de Datos
-
-## Introducción
+Con esta herramienta es posible actualizar el código desarrollado de manera colaborativa conservando un registro y control de versiones.
 
 
-
-| Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía sobre el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. Primero se muestran instrucciones sobre la instalación de Git, R y RStudio, y posteriormente se explica cómo configurar e iniciar un proyecto. |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|
-
-##
 ### GitHub
 
 <p align="center">         
@@ -20,7 +17,10 @@
 GitHub es la plataforma más popular para controlar versiones de código, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. 
 Además, registra cada cambio en el código y las carpetas de trabajo para rastrear la evolución del proyecto y, si es necesario, revertir cambios. Esta plataforma fue adquirida por [ Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/). 
 
-#### Crear cuenta y repositorio
+
+## 2.- Instrucciones
+
+###  Crear cuenta y repositorio en GitHub
 
 Primero, se accede a este **[enlace](https://github.com/)** y crear una cuenta de GitHub, para ello vas a necesitar una dirección de correo electrónico, generar un nombre de usuaria o usuario y una contraseña.
 
@@ -32,25 +32,14 @@ Primero, se accede a este **[enlace](https://github.com/)** y crear una cuenta d
 
 4.- Listo, una vez seleccionadas las preferencias de configuración el nuevo repositorio se habrá creado.
 
-##
-### Instalación de Git en Linux, Windows y macOS
-
-<p align="center">         
-<img src="imagen/logo1.png" alt="git" style="width:200px;"/>
-</p>
-
-Git es un software creado por  [Linus Torvals](https://es.wikipedia.org/wiki/Linus_Torvalds) diseñado para mejorar la eficiencia, confiabilidad y compatibilidad de versiones de aplicaciones cuando están compuestas por un gran número de código fuente y participan varias personas simultáneamente ([Wikipedia](https://es.wikipedia.org/wiki/Git), [Git](https://git-scm.com/) ).
-
-Con esta herramienta es posible actualizar el código desarrollado de manera colaborativa conservando un registro y control de versiones.
-
-**Instrucciones:**
+###  Instalación de Git en Linux, Windows y macOS
 
 Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)** y descarga el archivo correspondiente al sistema operativo que utilices. Al descargar, se sugiere seguir las instrucciones de esa página, pues ahí se describen las indicaciones para cada sistema operativo.
 
 Sobre la instalación, las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
 
 
-### Configuración
+#### Configuración de Git
 
 Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales de la forma en que se muestra a continuación. Cabe mencionar que el procedimiento se lleva a cabo en Git Bash.
 
@@ -106,7 +95,7 @@ Para más información sobre administración de repositorios remotos puede consu
 	
 
 
-##  Trabajar con Git desde  Git Bash
+## 3.- Trabajar con Git desde  Git Bash
 
 	
 	
@@ -178,12 +167,12 @@ Para facilitar el uso de Git y resolver posibles dificultades con el uso de func
 En caso de querer profundizar en el manejo de esta herramienta y sus comandos avanzados, te sugerimos descargar la guía oficial de Git a través del siguiente link [Downloads](https://git-scm.com/book).
             
 
-# Vincular Git con Rstudio
+## 4.- Vincular Git con Rstudio
 <p align="center">         
 <img src="imagen/Rstudio.png" alt="RStudio" style="width:200px;"/>
 </p>
 
-## Instalar R y RStudio
+###  Instalar R y RStudio
 
 Primero se debe instalar R, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/).
 Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de R. Además, para saber qué versión de R descargar ( 32 o 64 bits), en Windows puedes seguir los siguientes pasos: 
@@ -243,7 +232,7 @@ Para Vincular RStudio al proyecto en GitHub, es necesario seguir las siguientes 
 Si se desea conocer más sobre la vinculación de Git y  RStudio, se sugiere consultar el siguiente [Documento](https://cfss.uchicago.edu/setup/git-with-rstudio/).
 
 
-## Trabajar en RStudio desde una rama local 
+### Trabajar en RStudio desde una rama local 
 
 Para evitar problemas tales como actualizaciones mientras se está trabajando sobre un repositorio, o dificultades al unir dos nuevas actualizaciones, se sugiere usar una **rama local**. 
 
@@ -286,7 +275,7 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 12. Cuando se reabra el proyecto una próxima vez, se puede comenzar desde acceder a una **rama local**.
 
-## Buenas prácticas en el uso de Sistemas de Control de Versiones
+## 5.- Buenas prácticas en el uso de Sistemas de Control de Versiones
 
 Para garantizar el control de la información y de los flujos de trabajo se recomienda lo siguiente:
 	
@@ -303,7 +292,7 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 
 
 	
-## Glosario
+## 6.-  Glosario
 	
 	
 	
