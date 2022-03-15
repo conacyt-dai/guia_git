@@ -5,7 +5,10 @@
 
 ## Introducción
 
-Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía sobre el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. Primero se muestran instrucciones sobre la instalación de Git, R y RStudio, y posteriormente se explica cómo configurar e iniciar un proyecto.
+Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía sobre el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. 
+Primero se muestran instrucciones sobre la instalación de Git, R y RStudio, y posteriormente se explica cómo configurar e iniciar un proyecto.
+También, al final del presente documento se muestra un breve glosario, para mostrar definiciones de palabras técnicas.
+
 
 ##
 ### GitHub
@@ -14,14 +17,14 @@ Con el objetivo de facilitar el trabajo transparente y colaborativo entre los eq
 <img src="imagen/logo2.png" alt="Files" style="width:200px;"/>
 </p>
 
-GitHub es conocida como la “plataforma de desarrollo de software líder en el mundo”, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. 
+GitHub es la plataforma más popular para controlar versiones de código, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. 
 Además, registra cada cambio en el código y las carpetas de trabajo para rastrear la evolución del proyecto y, si es necesario, revertir cambios.
  
  *Esta plataforma fue [adquirida por Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/)*. 
 
 #### Crear cuenta y repositorio
 
-Primero, Accede a este **[enlace](https://github.com/)** y crear una cuenta de GitHub, para ello vas a necesitar una dirección de correo electrónico, generar un nombre de usuaria o usuario y una contraseña.
+Primero, se accede a este **[enlace](https://github.com/)** y crear una cuenta de GitHub, para ello vas a necesitar una dirección de correo electrónico, generar un nombre de usuaria o usuario y una contraseña.
 
 1.- Una vez creada la cuenta, en la parte superior derecha de la página de GitHub se observará un símbolo ' + '. 
 
@@ -42,7 +45,7 @@ Git es un software creado por  [Linus Torvals](https://es.wikipedia.org/wiki/Lin
 
 Con esta herramienta es posible actualizar el código desarrollado de manera colaborativa conservando un registro y control de versiones.
 
-Instrucciones:
+**Instrucciones:**
 
 Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)** y descarga el archivo correspondiente al sistema operativo que utilices.
 
@@ -51,7 +54,7 @@ Sobre la instalación, las opciones predeterminadas permitirán el funcionamient
 
 ### Configuración
 
-Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
+Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales de la forma en que se muestra a continuación. Cabe mencionar que el procedimiento se lleva a cabo en Git Bash.
 
 -  ` git config --global user.name <Nombre de usuario>`
 	
@@ -96,11 +99,11 @@ A este procedimiento se le conoce como autenticación. Es importante mencionar q
 
 
 
-Por cuestiones de seguridad se sugiere el uso del protocolo HTTPS (reduce los riesgos de  **[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)**
+Por cuestiones de seguridad se sugiere el uso del protocolo HTTPS (ya que reduce los riesgos de  **[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)**
 ). 
 
 	
-*Más información sobre administración de repositorios remotos puede consultarse en el siguiente*  **[enlace](https://docs.github.com/en/get-started/quickstart/set-up-git)**.
+Para más información sobre administración de repositorios remotos puede consultarse en el siguiente  **[enlace](https://docs.github.com/en/get-started/quickstart/set-up-git)**.
 
 	
 
@@ -127,7 +130,7 @@ Procedimiento:
 
 #### Publicar cambios en el repositorio remoto GitHub
 
-Para agregar las modificaciones realizadas a todos los archivos contenidos en el repositorio local se debe seguir el siguiente procedimiento. Sin embargo, se recuerda que antes de publicar cambios, es necesario trabajar sobre el archivo. Esto se puede ver en la sección de Uso de RStudio para clonar). 
+Para agregar las modificaciones realizadas a todos los archivos contenidos en el repositorio local se debe seguir el procedimiento que se menciona a continuación. Sin embargo, se recuerda que antes de publicar cambios, es necesario trabajar sobre el archivo. Esto se puede ver en la sección de Uso de RStudio para clonar). 
  
 -  `git add . `
 -  `git commit -m "Agregar un mensaje sobre la actualización realizada "`
@@ -150,13 +153,13 @@ Para desvincular tu cuenta de un repositorio colaborativo puedes consultar la si
 
 Para facilitar el uso de Git y resolver posibles dificultades con el uso de funciones se agrega una sección con los comandos Git y sus funciones más utilizadas.
 
-| Código  |    Uso |
+| Comando  |    Uso |
 |----------|--------|     
 | `git --help ` | Se mostrará en pantalla una lista de los comandos más usados (incluidos los enlistados en está tabla) y una breve explicación |
 | `git <comando> --help ` | Para consultar las características de uso y función de un comando en específico |
 | `git clone <URL> ` | Descargar un repositorio existente| 
 | `git add nombre_archivo.ext ` | Agregar archivo a área de aterrizaje| 
-| `git commit -m " Mensaje de descripción de cambios" ` |Guardar cambios que se subieron al área de aterrizaje |
+| `git commit -m " Mensaje de descripción de cambios" ` |Guardar cambios que se subieron al área de documentos que están listos para ser compartidos. |
 | `git pull nombre_remoto nombre_rama ` | Actualizar los cambios de un repositorio remoto |   
 | `git push nombre_remoto nombre_rama ` | Actualizar los cambios de tu rama al repositorio remoto asociado| 
 | `git branch brnach_name ` |Crear nuevo Branch|  
@@ -313,11 +316,11 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | Concepto | Definición | 
 |-----------|----------------|
 | Branch o Rama		| Es una divergencia de la línea principal de desarrollo, la cual permite trabajar sin arruinar la línea principal.    | 
-| CVS 			| Sistema de Control de Versiones  | 
+| CVS 			| "Es un sistema que registra los cambios sobre el tiempo de un archivo o conjunto de ellos, para que sea posible recuperar versiones específicas posteriormente.  | 
 | Git 			| Es un Sistema de Control de Versiones que permite dar seguimiento de forma colaborativa a un proyecto.  |
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
-| HTTPS  	| **Hypertext Transfer Protocol Secure** por su significado en Inglés, es una versión del protocolo H TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
+| HTTPS  	| Hypertext Transfer Protocol Secure por su significado en Inglés, es una versión del protocolo H TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
 | Línea de Comandos  | También conocido como Command Line Interface (CLI), procesa instrucciones en forma de texto para un programa de computadora. | 
 | Librería 		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear.   |
 | Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto.  |
@@ -325,7 +328,7 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
 | R Script 		| Archivo de texto editable que contiene código y comentarios que posteriormente pueden ser ejecutados |
 | Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otras opciones. |
-| SSH  	| **Secure Shell**, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
+| SSH  	| Secure Shell, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
 | Tampering | Es un parámetro de seguridad que permite manipular el intercambio de información entre usuarios y computadoras, para modificar datos, tales como credenciales o permisos. |
 
 
