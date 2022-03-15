@@ -1,3 +1,12 @@
+# Guía Básica para el uso de Git y GitHub 
+
+>                                                  Gobierno de Datos
+
+## 1.- Introducción
+
+ **Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía sobre el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. Primero se muestran instrucciones sobre la instalación de Git, GitHub, R y RStudio, y posteriormente se explica cómo configurar e iniciar un proyecto.** 
+
+
 ### Git
 <p align="center">         
 <img src="imagen/logo1.png" alt="git" style="width:200px;"/>
