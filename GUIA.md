@@ -5,10 +5,11 @@
 
 ## Introducción
 
-Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía sobre el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. 
+|   |
+|---|
+|Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía sobre el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. 
 Primero se muestran instrucciones sobre la instalación de Git, R y RStudio, y posteriormente se explica cómo configurar e iniciar un proyecto.
-También, al final del presente documento se muestra un breve glosario, para mostrar definiciones de palabras técnicas.
-
+También, al final del presente documento se muestra un breve glosario, para mostrar definiciones de palabras técnicas.|
 
 ##
 ### GitHub
