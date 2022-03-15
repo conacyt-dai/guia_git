@@ -114,7 +114,7 @@ Para más información sobre administración de repositorios remotos puede consu
 	
 Al abrir Git Bash, seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
--  ` cd  / Documents/nuevo_repositorio `
+-  ` cd  /Documents/nuevo_repositorio `
 
 -  ` git add nombre_archivo `
 
@@ -304,7 +304,7 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 	
 - Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
 
-	
+- Hacer uso de ramas, para trabajar colaborativamente. Esto reducirá problemas de sobre-escritura y conflictos al hacer actualizaciones. 	
 
 
 
@@ -316,13 +316,13 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | Concepto | Definición | 
 |-----------|----------------|
 | Branch o Rama		| Es una divergencia de la línea principal de desarrollo, la cual permite trabajar sin arruinar la línea principal.    | 
-| CVS 			| "Es un sistema que registra los cambios sobre el tiempo de un archivo o conjunto de ellos, para que sea posible recuperar versiones específicas posteriormente.  | 
+| CVS 			| "Es un sistema que registra los cambios sobre el tiempo de un archivo o conjunto de ellos, para que sea posible recuperar versiones específicas posteriormente".  | 
 | Git 			| Es un Sistema de Control de Versiones que permite dar seguimiento de forma colaborativa a un proyecto.  |
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
 | HTTPS  	| Hypertext Transfer Protocol Secure por su significado en Inglés, es una versión del protocolo H TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
 | Línea de Comandos  | También conocido como Command Line Interface (CLI), procesa instrucciones en forma de texto para un programa de computadora. | 
-| Librería 		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear.   |
+| Librería 		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear".   |
 | Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto.  |
 | R  			| "Es un lenguaje y ambiente para el cómputo estadístico y graficación", además de ser multiusos.  |
 | R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
