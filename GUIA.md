@@ -51,42 +51,38 @@ Sobre la instalación, las opciones predeterminadas permitirán el funcionamient
 
 ### Configuración
 
-Como recomendación, se podrá crear una carpeta "repositorio" en la siguiente ubicación de tu ordenador:
-
-- `C:/Usuarios/<nombre de usuario>/Documents/<repositorio_nuevo>`
-  
-En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git puedes seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**.
-
-
 Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales:
 
-	
 -  ` git config --global user.name <Nombre de usuario>`
-
 	
 - ` git config --global user.email <Cuenta de correo electrónico>` 
 
+Posteriormente, se recomienda crear una carpeta "repositorio" en la siguiente ubicación de tu ordenador:
 
- Una vez agregadas las credenciales se debe agregar a Git la carpeta generada previamente:
+- `C:/Usuarios/<nombre de usuario>/Documents/<repositorio>`
+  
+En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado Git puedes seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**.
 
--  `cd Documents/nuevo_repositorio`
+ Ahora, para seleccionar la carpeta que generaste y clonar un repositorio en esa ubicación, se deben usar los siguientes comandos:
 
-
-Lo anterior agrega la carpeta **nuevo_repositorio** a git, reconociéndola como repositorio. Posteriormente, para clonar el repositorio de GitHub:
+-  `cd Documents/repositorio`  
 
 - `git clone <URL>`
 
 Donde **URL** es el enlace para clonar desde la página de GitHub, su obtención se explica en la siguiente sección. 
 
-
 #### Autenticación 
 
 Para vincular un repositorio de GitHub a RStudio desde Git, será necesario el enlace del repositorio en que se quiera trabajar.
 
+Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y dar clic al botón verde "Code".
+
+<p align="center">         
+<img src="imagen/link.png" alt="link" style="width:350px;"/>
+</p>
 
 A este procedimiento se le conoce como autenticación. Es importante mencionar que existen dos opciones para vincular un repositorio, los protocolos HTTPS y SSH, los cuales tienen las siguientes características.
 
-Se sugiere que el usuario emplee el protocolo HTTPS, no sólo por su eficiencia y facilidad, sino también por cuestiones de seguridad en la red.  
 
 - **HTTPS**:
     Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de GitHub en Git.   
@@ -100,21 +96,13 @@ Se sugiere que el usuario emplee el protocolo HTTPS, no sólo por su eficiencia 
 
 
 
-Por cuestiones de seguiridad se sugiere el uso del protocolo HTTPS (reduce los riresgos de  **[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)**
+Por cuestiones de seguridad se sugiere el uso del protocolo HTTPS (reduce los riresgos de  **[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)**
 ). 
 
 	
 *Más información sobre administración de repositorios remotos puede consultarse en el siguiente*  **[enlace](https://docs.github.com/en/get-started/quickstart/set-up-git)**.
 
 	
-
-### LINK de repositorio GitHub
-
-Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y dar clic al botón verde "Code".
-
-<p align="center">         
-<img src="imagen/link.png" alt="link" style="width:350px;"/>
-</p>
 
 
 ##  Trabajar con Git desde  Git Bash
@@ -124,7 +112,6 @@ Para obtener el link HTTPS o SSH debes dirigirte a tu repositorio en GitHub y da
 Al abrir Git Bash, seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
 -  ` cd  / Documents/nuevo_repositorio `
-
 
 -  ` git add nombre_archivo `
 
@@ -156,7 +143,7 @@ Si se requiere publicar los cambios realizados en un solo archivo del repositori
 - ` git commit -m "Mensaje sobre la actualización realizada" `
 - ` git push `
 
-Para desvincular tu cuenta de un repositorio colaborativo puedes consultar la siguiente **[documentación](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/removing-yourself-from-a-collaborators-repository)**
+Para desvincular tu cuenta de un repositorio colaborativo puedes consultar la siguiente [documentación](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/removing-yourself-from-a-collaborators-repository)
 	
 	
 ### Comandos Git
@@ -198,7 +185,7 @@ En caso de querer profundizar en el manejo de esta herramienta y sus comandos av
 
 ## Instalar R y RStudio
 
-Primero se debe instalar R, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/)
+Primero se debe instalar R, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/).
 Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de R. Además, para saber qué versión de R descargar ( 32 o 64 bits), en Windows puedes seguir los siguientes pasos: 
 
 1. Ingrese a **Configuración** de su ordenador
@@ -276,7 +263,7 @@ La cual se configura únicamente para trabajar de manera local como se muestra e
 <img src="imagen/local.png" alt=" " style="width:250px;"/>
 </p>
 
-Este paso se realiza para evitar problemas cuando haya cambios en la rama principal  ` main`. De preferencia, se hace esta acción cada vez que inicie un nuevo proyecto. Para evitar errores más adelante, el nombre de la rama no debe contener símbolos especiales, ni puntos, ni acentos ni espacios: se sugiere usar un nombre del tipo ` rama_local` o bien  `local`.
+Este paso se realiza para evitar problemas cuando haya cambios en la rama principal  ` main`. De preferencia, se hace esta acción cada vez que inicie un nuevo proyecto. Para evitar errores más adelante, el nombre de la rama no debe contener símbolos especiales, puntos, acentos o espacios; se sugiere usar `local`.
 
 
 
@@ -292,7 +279,7 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 7. Se abre una consola a partir del menú `Tools -> Shell `
 
-8. En la consola se escribe el siguiente comando:  `git merge rama_local` es decir` el nombre que se asignó a la rama local en la cual se trabajó. Esto se hace para **combinar** el trabajo local con la rama principal ` main`  antes de subir las actualizaciones al repositorio. Se cierra la consola.
+8. En la consola se escribe el siguiente comando:  `git merge rama_local` es decir el nombre que se asignó a la rama local en la cual se trabajó. Esto se hace para **combinar** el trabajo local con la rama principal ` main`  antes de subir las actualizaciones al repositorio. Se cierra la consola.
 
 9. A continuación, se hace ` push ` del trabajo. Esto se logra pinchando la flecha verde que apunta hacia arriba. Esto actualizará el repositorio.
 
