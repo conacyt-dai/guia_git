@@ -318,7 +318,7 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 | Git 			| Es un Sistema de Control de Versiones que permite dar seguimiento de forma colaborativa a un proyecto.  |
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
-| HTTPS  	| Hypertext Transfer Protocol Secure por su significado en Inglés, es una versión del protocolo H TTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
+| HTTPS  	| Hypertext Transfer Protocol Secure por su significado en Inglés, es una versión del protocolo HTTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
 | Línea de Comandos  | También conocido como Command Line Interface (CLI), procesa instrucciones en forma de texto para un programa de computadora. | 
 | Biblioteca		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear".   |
 | Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto.  |
