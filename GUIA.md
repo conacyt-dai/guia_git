@@ -113,7 +113,6 @@ Para más información sobre administración de repositorios remotos puede consu
 Al abrir Git Bash, seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
 -  ` cd  /Documents/nuevo_repositorio `
-
 -  ` git add nombre_archivo `
 
 #### Actualización o descarga de repositorio local
@@ -189,11 +188,11 @@ En caso de querer profundizar en el manejo de esta herramienta y sus comandos av
 Primero se debe instalar R, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/).
 Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de R. Además, para saber qué versión de R descargar ( 32 o 64 bits), en Windows puedes seguir los siguientes pasos: 
 
-1. Ingrese a **Configuración** de su ordenador
+1. Ingrese a **Configuración** de su ordenador.
 
-2. Seleccione **Sistema**
+2. Seleccione **Sistema**.
 
-3. Pinche en **Acerca de...**
+3. Pinche en **Acerca de...**.
 
 4. Visualice la opción de **Tipo de Sistema**. Ahí se identifica si es de 32 o 64 bits. 
 
@@ -208,14 +207,12 @@ Para poder vincular GitHub con RStudio es necesario hacer un procedimiento.
 
 0. Abrir Rstudio. 
 
-1. Ingresar las siguientes líneas de código dentro del **R Script** (es decir, en la sección superior izquierda)
-
+1. Ingresar las siguientes líneas de código dentro del **R Script** (es decir, en la sección superior izquierda).
 
 - ` install.packages("usethis") `
 - ` library(usethis) `
 
 2. Escribir su nombre de usuario y correo electrónico que usó para generar la cuenta en GitHub en la siguiente línea de código. 
-
 
 - `usethis::use_git_config(user.name = "Tu_nombre_Usuario_GitHub", user.email = "tucorreo@correo.com")`
 
@@ -242,7 +239,6 @@ Para Vincular RStudio al proyecto en GitHub, es necesario seguir las siguientes 
 3. Una vez en la pestaña que se muestra, escriba el nombre del Directorio, haga match en **“Create a git repository”** y se sugiere **“Open in new session”**.
 
 4. Para terminar, cerramos el proyecto desde **File -> Close Project** antes de apagar RStudio a fin de evitar errores al recargar la interfaz en otra ocasión.
-
 
 Si se desea conocer más sobre la vinculación de Git y  RStudio, se sugiere consultar el siguiente [Documento](https://cfss.uchicago.edu/setup/git-with-rstudio/).
 
@@ -276,9 +272,9 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 5. Nuevamente se realiza `pull` porque podría haber actualizaciones realizadas por otro colaborador.
 
-6. En caso de que haya actualizaciones después de **descargar** la última versión del repositorio, nuevamente se hace ` Commit `.  Note que ya se encuentra en la rama principal `main` del proyecto
+6. En caso de que haya actualizaciones después de **descargar** la última versión del repositorio, nuevamente se hace ` Commit `.  Note que ya se encuentra en la rama principal `main` del proyecto.
 
-7. Se abre una consola a partir del menú `Tools -> Shell `
+7. Se abre una consola a partir del menú `Tools -> Shell `.
 
 8. En la consola se escribe el siguiente comando:  `git merge rama_local` es decir el nombre que se asignó a la rama local en la cual se trabajó. Esto se hace para **combinar** el trabajo local con la rama principal ` main`  antes de subir las actualizaciones al repositorio. Se cierra la consola.
 
