@@ -45,7 +45,7 @@ Con esta herramienta es posible actualizar el código desarrollado de manera col
 
 **Instrucciones:**
 
-Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)** y descarga el archivo correspondiente al sistema operativo que utilices.
+Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)** y descarga el archivo correspondiente al sistema operativo que utilices. Al descargar, se sugiere seguir las instrucciones de esa página, pues ahí se describen las indicaciones para cada sistema operativo.
 
 Sobre la instalación, las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
 
@@ -266,7 +266,7 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 2. Se trabaja normalmente, y se realizan todas las acciones y actualizaciones dentro de esta rama local.
 
-3. Se pincha  `Commit` dentro de la pestaña **Git** y escribe los comentarios necesarios para explicar nuestro trabajo realizado en la ventana que se abre. Asegúrese de seleccionar solo los archivos que deseemos actualizar.
+3. Se presiona  `Commit` dentro de la pestaña **Git** y escribe los comentarios necesarios para explicar nuestro trabajo realizado en la ventana que se abre. Asegúrese de seleccionar solo los archivos que deseemos actualizar.
 
 4. Junto al nombre de la rama local ` rama_local` en la pestaña *Git* aparece un triángulo que apunta hacia abajo, se pinche y se cambia a la rama principal `main` Esto abre un mensaje que, si no hay errores, indicará que ha cambiado a la rama principal.
 
@@ -278,7 +278,7 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 8. En la consola se escribe el siguiente comando:  `git merge rama_local` es decir el nombre que se asignó a la rama local en la cual se trabajó. Esto se hace para **combinar** el trabajo local con la rama principal ` main`  antes de subir las actualizaciones al repositorio. Se cierra la consola.
 
-9. A continuación, se hace ` push ` del trabajo. Esto se logra pinchando la flecha verde que apunta hacia arriba. Esto actualizará el repositorio.
+9. A continuación, se hace ` push ` del trabajo. Esto se logra seleccionando la flecha verde que apunta hacia arriba. Esto actualizará el repositorio.
 
 10. Se elimina la **rama local** al escribir en la consola el siguiente comando: ` git branch -d rama_local` . Una vez hecho esto, se cierra la consola. 
 
