@@ -288,7 +288,7 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 
 11. Para concluir, se cierra el proyecto desde ` File -> Close Project ` antes de cerrar RStudio para evitar errores al cargar la interfaz en una próxima ocasión.
 
-12. Cuando se reabra el proyecto una próxima vez, se puede comenzar desde acceder a una **rama local**. Disfrute :Happy_face: 
+12. Cuando se reabra el proyecto una próxima vez, se puede comenzar desde acceder a una **rama local**.
 
 ## Buenas prácticas en el uso de Sistemas de Control de Versiones
 
