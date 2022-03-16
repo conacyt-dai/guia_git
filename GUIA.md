@@ -306,7 +306,7 @@ Debido a que todos los archivos y directorios son suceptibles a ser compartidos 
 
 Hay varias formas de indicar qué elementos ignorar, y esto dependerá de qué es lo que se busca omitir. 
 Usualmente se emplea `gitignore`en la rama principal, para ignorar archivos de un sólo repositorio.
-- `touch .gitignore` 
+- `touch .gitignore`  <br/>
 Dentro de gitignore, se deberá de incluir en formato de texto todos los archivos por omitir. Usualmente es posible omitir por formato de archivo (tales como, .log, .md), paqueterías (como .rar, .zip, etc.) o claves privadas o tokens. 
 
 
