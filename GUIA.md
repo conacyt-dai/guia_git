@@ -299,6 +299,17 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 
 - Hacer uso de ramas, para trabajar colaborativamente. Esto reducirá problemas de sobre-escritura y conflictos al hacer actualizaciones. 	
 
+### Ignorar archivos
+
+Los Sistema de Control de Versiones permiten ignorar archivos mediante el uso de `gitignore`. 
+Debido a que todos los archivos y directorios son suceptibles a ser compartidos en los repositorios, es necesario declarar explicitamente a Git qué archivos o directorios se omitirán.
+
+Hay varias formas de indicar qué elementos ignorar, y esto dependerá de qué es lo que se busca omitir. 
+Usualmente se emplea `gitignore`en la rama principal, para ignorar archivos de un sólo repositorio.
+- `touch .gitignore` 
+Dentro de gitignore, se deberá de incluir en formato de texto todos los archivos por omitir. Usualmente es posible omitir por formato de archivo (tales como, .log, .md), paqueterías (como .rar, .zip, etc.) o claves privadas o tokens. 
+
+
 
 
 	
