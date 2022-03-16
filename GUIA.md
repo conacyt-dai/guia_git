@@ -136,7 +136,7 @@ Para agregar las modificaciones realizadas a todos los archivos contenidos en el
 
 ### Publicar cambios en un solo archivo
 
-Si se requiere publicar los cambios realizados en un solo archivo, en ves de poner un punto (.) se escribe el nombre del archivo y su extensión:
+Si se requiere publicar los cambios realizados en un solo archivo, en vez de poner un punto (.) se escribe el nombre del archivo y su extensión:
 
 - ` git add nombre_archivo.extensión  (Ejemplo: git add abc.txt) `
 - ` git commit -m "Mensaje sobre la actualización realizada" `
