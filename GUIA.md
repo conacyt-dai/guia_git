@@ -30,7 +30,7 @@ Con esta herramienta es posible actualizar el código desarrollado de manera col
 ### GitHub
 
 GitHub es la plataforma más popular para controlar versiones de código, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. 
-Además, registra cada cambio en el código y las carpetas de trabajo para rastrear la evolución del proyecto y, si es necesario, revertir cambios. Esta plataforma fue adquirida por [ Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/). 
+Además, registra cada cambio en el código y las carpetas de trabajo para rastrear la evolución de proyectos y, si es necesario, revertir los cambios. Esta plataforma fue adquirida por [ Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/). 
 
 
 ## 2.- Instrucciones
