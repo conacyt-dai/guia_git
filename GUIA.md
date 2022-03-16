@@ -1,27 +1,33 @@
+
+
 # Guía Básica para el uso de Git y GitHub 
 
->                                                  Gobierno de Datos
+**Gobierno de Datos**
+
+
+
 
 ## 1.- Introducción
 
  **Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía sobre el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. Primero se muestran instrucciones sobre la instalación de Git, GitHub, R y RStudio, y posteriormente se explica cómo configurar e iniciar un proyecto.** 
 
+<p align="center">         
+<img src="imagen/logo1.png" alt="git" style="width:300px;"/> 
+</p>
+
+
 
 ### Git
-<p align="center">         
-<img src="imagen/logo1.png" alt="git" style="width:200px;"/>
-</p>
 
 Git es un software creado por  [Linus Torvals](https://es.wikipedia.org/wiki/Linus_Torvalds) diseñado para mejorar la eficiencia, confiabilidad y compatibilidad de versiones de aplicaciones cuando están compuestas por un gran número de código fuente y participan varias personas simultáneamente ([Wikipedia](https://es.wikipedia.org/wiki/Git), [Git](https://git-scm.com/) ).
 
 Con esta herramienta es posible actualizar el código desarrollado de manera colaborativa conservando un registro y control de versiones.
 
+<p align="center">   
+<img src="imagen/logo2.png" alt="Files" style="width:180px;"/>
+</p>
 
 ### GitHub
-
-<p align="center">         
-<img src="imagen/logo2.png" alt="Files" style="width:200px;"/>
-</p>
 
 GitHub es la plataforma más popular para controlar versiones de código, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. 
 Además, registra cada cambio en el código y las carpetas de trabajo para rastrear la evolución del proyecto y, si es necesario, revertir cambios. Esta plataforma fue adquirida por [ Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/). 
@@ -43,9 +49,7 @@ Primero, se accede a este **[enlace](https://github.com/)** y crear una cuenta d
 
 ###  Instalación de Git en Linux, Windows y macOS
 
-Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)** y descarga el archivo correspondiente al sistema operativo que utilices. Al descargar, se sugiere seguir las instrucciones de esa página, pues ahí se describen las indicaciones para cada sistema operativo.
-
-Sobre la instalación, las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
+Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)**, selecciona el archivo correspondiente al sistema operativo que utilices y sigue sus instrucciones. Las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
 
 
 #### Configuración de Git
