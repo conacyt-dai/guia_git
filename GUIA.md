@@ -108,28 +108,26 @@ Para más información sobre administración de repositorios remotos puede consu
 	
 
 
-## 3.- Trabajar con Git desde  Git Bash
+## 3.- Trabajar desde  Git Bash
 
 	
 	
-Al abrir Git Bash, seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
+Al abrir Git Bash, siempre debes seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
 -  ` cd  /Documents/nuevo_repositorio `
--  ` git add nombre_archivo `
 
-#### Actualización o descarga de repositorio local
+### Actualización o descarga de repositorio local
 
 Para estar al tanto de los cambios que se han realizado en el repositorio de GitHub se debe hacer una actualización de los cambios realizados en la nube. Por otro lado, cuando se quiere subir cambios a una rama, antes de subir los cambios (push) se debe actualizar, ya que en caso de que haya cambios no registrados en el repositorio local podría haber un error y no ejecutar la función `push`.
 
-Procedimiento:
-
+Comando para actualizar el repositorio local a la última versión:
 
 -  ` git pull --verbose`
 
 
-#### Publicar cambios en el repositorio remoto GitHub
+### Publicar cambios en el repositorio remoto GitHub
 
-Para agregar las modificaciones realizadas a todos los archivos contenidos en el repositorio local se debe seguir el procedimiento que se menciona a continuación. Sin embargo, se recuerda que antes de publicar cambios, es necesario trabajar sobre el archivo. Esto se puede ver en la sección de Uso de RStudio para clonar). 
+Para agregar las modificaciones realizadas a todos los archivos contenidos en el repositorio local se debe actualizar el repositorio y seguir el procedimiento que se menciona a continuación. 
  
 -  `git add . `
 -  `git commit -m "Agregar un mensaje sobre la actualización realizada "`
@@ -138,8 +136,7 @@ Para agregar las modificaciones realizadas a todos los archivos contenidos en el
 
 ### Publicar cambios en un solo archivo
 
-Si se requiere publicar los cambios realizados en un solo archivo del repositorio el procedimiento es el siguiente:
-
+Si se requiere publicar los cambios realizados en un solo archivo, en ves de poner un punto (.) se escribe el nombre del archivo y su extensión:
 
 - ` git add nombre_archivo.extensión  (Ejemplo: git add abc.txt) `
 - ` git commit -m "Mensaje sobre la actualización realizada" `
