@@ -37,7 +37,7 @@ Además, registra cada cambio en el código y las carpetas de trabajo para rastr
 
 ###  Crear cuenta y repositorio en GitHub
 
-Primero, se accede a este **[enlace](https://github.com/)** y crear una cuenta de GitHub, para ello vas a necesitar una dirección de correo electrónico, generar un nombre de usuaria o usuario y una contraseña.
+Primero desbes acceder a este **[enlace](https://github.com/)**  y crear una cuenta de GitHub. Para ello vas a necesitar una dirección de correo electrónico, generar un nombre de usuaria o usuario y una contraseña.
 
 1.- Una vez creada la cuenta, en la parte superior derecha de la página de GitHub se observará un símbolo ' + '. 
 
