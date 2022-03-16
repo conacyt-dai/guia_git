@@ -91,7 +91,7 @@ A este procedimiento se le conoce como autenticación. Es importante mencionar q
     Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de GitHub en Git.   
 	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de GitHub: 
 	
-	1. Instalar GitHub CLI
+	1. Instalar GitHub CLI.
 	2. En la terminal de GitBash, escribir <code> gh auth login </code> y seguir las instrucciones.
 	
 - **SSH**:
@@ -142,9 +142,22 @@ Si se requiere publicar los cambios realizados en un solo archivo, en vez de pon
 - ` git commit -m "Mensaje sobre la actualización realizada" `
 - ` git push `
 
-Para desvincular tu cuenta de un repositorio colaborativo puedes consultar la siguiente [documentación](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/removing-yourself-from-a-collaborators-repository)
+### Ignorar archivos
+
+Los Sistema de Control de Versiones permiten ignorar archivos mediante el uso de `gitignore`. 
+Debido a que todos los archivos y directorios son suceptibles a ser compartidos en los repositorios, es necesario declarar explicitamente a Git qué archivos o directorios se omitirán.
+
+Hay varias formas de indicar qué elementos evadir, y esto dependerá de qué es lo que se busca omitir. 
+Usualmente se emplea `gitignore`en la rama principal, para ignorar archivos de un sólo repositorio, como se muestra a continuación.
+- `touch .gitignore`  <br/>
+Lo anterior crea un archivo `.gitignore`. Dentro de este, se deberá incluir en formato de texto todos los archivos por omitir. Usualmente es posible pasar por alto tipos de archivo (tales como, .log, .md), paqueterías (como .rar, .zip, etc.) o claves privadas y *tokens*. 
+
+
+
+NOTA: Para desvincular tu cuenta de un repositorio colaborativo puedes consultar la siguiente [documentación](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/removing-yourself-from-a-collaborators-repository).
 	
-	
+
+
 ### Comandos Git
 
 Para facilitar el uso de Git y resolver posibles dificultades con el uso de funciones se agrega una sección con los comandos Git y sus funciones más utilizadas.
@@ -298,17 +311,6 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 - Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
 
 - Hacer uso de ramas, para trabajar colaborativamente. Esto reducirá problemas de sobre-escritura y conflictos al hacer actualizaciones. 	
-
-### Ignorar archivos
-
-Los Sistema de Control de Versiones permiten ignorar archivos mediante el uso de `gitignore`. 
-Debido a que todos los archivos y directorios son suceptibles a ser compartidos en los repositorios, es necesario declarar explicitamente a Git qué archivos o directorios se omitirán.
-
-Hay varias formas de indicar qué elementos evadir, y esto dependerá de qué es lo que se busca omitir. 
-Usualmente se emplea `gitignore`en la rama principal, para ignorar archivos de un sólo repositorio, como se muestra a continuación.
-- `touch .gitignore`  <br/>
-Lo anterior crear un archivo `.gitignore`. Dentro de este, se deberá de incluir en formato de texto todos los archivos por omitir. Usualmente es posible pasar por alta tipos de archivo (tales como, .log, .md), paqueterías (como .rar, .zip, etc.) o claves privadas o tokens. 
-
 
 
 
