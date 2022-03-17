@@ -277,6 +277,8 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 - Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
 
 - Hacer uso de ramas para trabajar colaborativamente. Esto reducirá problemas de sobre-escritura y conflictos al hacer actualizaciones.
+
+- Definir una nomeclatura para identificar las distintas versiones de los proyectos.
 	
 ## 6.-  Glosario
 
