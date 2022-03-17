@@ -4,7 +4,8 @@
 
 ## 1.- Introducción
 
- Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la **DAI**, se ha generado esta guía sobre el uso de **Git** y **GitHub**, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. Primero se muestran instrucciones sobre la instalación de **Git**, **GitHub**, **R** y **RStudio**, y posteriormente se explica cómo configurar e iniciar un proyecto.
+Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la **DAI**, se ha generado esta guía sobre el uso de **Git** y **GitHub**, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. 
+Primero se muestran instrucciones sobre la instalación de **Git**, **GitHub**, **R** y **RStudio**, y posteriormente se explica cómo configurar e iniciar un proyecto.
 
 <p align="center">         
 <img src="imagen/logo1.png" alt="git" style="width:300px;"/> 
@@ -29,35 +30,36 @@ Además, registra cada cambio en el código y las carpetas de trabajo para rastr
 
 ###  Crear cuenta y repositorio en GitHub
 
-Primero debes acceder a este **[enlace](https://github.com/)**  y crear una cuenta de **GitHub**. Para ello vas a necesitar una dirección de correo electrónico, generar un nombre de usuario y una contraseña.
+Primero se debe de acceder a este **[enlace](https://github.com/)**  y crear una cuenta de **GitHub**. Para ello se necesita una dirección de correo electrónico, generar un nombre de usuario y una contraseña.
 
 1.- Una vez creada la cuenta, en la parte superior derecha de la página de **GitHub** se observará un símbolo ' + '. 
 
-2.- Debe abrir esa pestaña y hacer clic en "New Repository". 
+2.- Se debe abrir esa pestaña y hacer clic en "New Repository". 
 
-3.- Ahora aparecerán las opciones de configuración donde tendrá la opción de agregar un documento README.md. 
+3.- Ahora aparecerán las opciones de configuración donde se tendrá la opción de agregar un documento README.md. 
 
 4.- Listo. Una vez seleccionadas las preferencias de configuración, el nuevo repositorio se habrá creado.
 
 ###  Instalación de Git en Linux, Windows y macOS
 
-Para descargar el archivo de instalación de **Git** accede a este **[enlace](https://git-scm.com/downloads)**, selecciona el archivo correspondiente al sistema operativo que utilices y sigue sus instrucciones. Las opciones predeterminadas permitirán el funcionamiento adecuado de **Git** en tu computadora.
+Para descargar el archivo de instalación de **Git** se accede a este **[enlace](https://git-scm.com/downloads)**, selecciona el archivo correspondiente al sistema operativo que se utilice y se sigues las instrucciones. 
+Las opciones predeterminadas permitirán el funcionamiento adecuado de **Git** en el computador.
 
 #### Configuración de Git
 
-Para vincular **Git** con tu cuenta de **GitHub** es necesario agregar tus credenciales de la forma en que se muestra a continuación. Cabe mencionar que el procedimiento se lleva a cabo en **Git Bash**.
+Para vincular **Git** con la cuenta de **GitHub** es necesario agregar las credenciales de la forma en que se muestra a continuación. Cabe mencionar que el procedimiento se lleva a cabo en **Git Bash**.
 
 - `git config --global user.name "<Nombre de usuario>"`
 	
 - `git config --global user.email <Cuenta de correo electrónico>` 
 
-Posteriormente, se recomienda crear una carpeta "repositorio" en la siguiente ubicación de tu ordenador:
+Posteriormente, se recomienda crear una carpeta "repositorio" en la siguiente ubicación de la computadora:
 
 - `C:/Usuarios/<Nombre de usuario>/Documents/<Repositorio>`
   
-En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado **Git** puedes seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**.
+En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado **Git** se puede seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**.
 
- Ahora, para seleccionar la carpeta que generaste y clonar un repositorio en esa ubicación, se deben usar los siguientes comandos:
+Ahora, para seleccionar la carpeta que se generó y clonar un repositorio en esa ubicación, se debe usar los siguientes comandos:
 
 -  `cd Documents/<Repositorio>`  
 
@@ -69,7 +71,7 @@ Donde \<URL\> es el enlace para clonar desde la página de **GitHub**, su obtenc
 
 Para vincular un repositorio de **GitHub** a **RStudio** desde **Git**, será necesario el enlace del repositorio en que se quiera trabajar.
 
-Para obtener el enlace HTTPS o SSH debes dirigirte a tu repositorio en **GitHub** y dar clic al botón verde con la leyenda "Code".
+Para obtener el enlace HTTPS o SSH se debe de dirigir al repositorio en **GitHub** y dar clic al botón verde con la leyenda "Code".
 
 <p align="center">         
 <img src="imagen/link.png" alt="link" style="width:350px;"/>
@@ -87,7 +89,7 @@ Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de cred
 	
 - **SSH**
 
-Al elegir la opción SSH, será necesario crear claves SSH en cada computadora que use para su proyecto, ya sea para enviar o extraer información del repositorio en **GitHub**. Para establecer la configuración SSH o cambiar de HTTPS a SSH puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
+Al elegir la opción SSH, será necesario crear claves SSH en cada computadora que use para su proyecto, ya sea para enviar o extraer información del repositorio en **GitHub**. Para establecer la configuración SSH o cambiar de HTTPS a SSH se puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
 
 Por cuestiones de seguridad se sugiere el uso del protocolo HTTPS (ya que reduce los riesgos de  "*[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)*"). 
 	
@@ -95,13 +97,14 @@ Para más información sobre administración de repositorios remotos puede consu
 
 ## 3.- Trabajar desde Git Bash
 	
-Al abrir **Git Bash** siempre debes seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
+Al abrir **Git Bash** siempre se debe seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
 -  `cd  /Documents/<Nuevo repositorio>`
 
 ### Actualización o descarga de repositorio local
 
-Para estar al tanto de los cambios que se han realizado en el repositorio de **GitHub** se debe hacer una actualización de los cambios realizados en la nube. Por otro lado, cuando se quiere subir cambios a una rama, antes de subir los cambios (`push`) se debe actualizar, ya que en caso de que haya cambios no registrados en el repositorio local podría haber un error y no ejecutar la función `push`.
+Para estar al tanto de los cambios que se han realizado en el repositorio de **GitHub** se debe hacer una actualización de los cambios realizados en la nube. 
+Por otro lado, cuando se quiere subir cambios a una rama, antes de subir los cambios (`push`) se debe actualizar, ya que en caso de que haya cambios no registrados en el repositorio local podría haber un error y no ejecutar la función `push`.
 
 Comando para actualizar el repositorio local a la última versión:
 
@@ -117,7 +120,7 @@ Para agregar las modificaciones realizadas a todos los archivos contenidos en el
 
 ### Publicar cambios en un solo archivo
 
-Si se requiere publicar los cambios realizados en un solo archivo, en vez de escribir un punto (`.`) se escribe el nombre del archivo y su extensión:
+Si se requiere publicar los cambios realizados en un solo archivo, en lugar de escribir un punto (`.`), se escribe el nombre del archivo y su extensión:
 
 - `git add <Archivo>` (Ejemplo: git add abc.txt)
 - `git commit -m "<Mensaje sobre la actualización realizada>"`
@@ -159,7 +162,7 @@ Para facilitar el uso de **Git** y resolver posibles dificultades con el uso de 
   
 <sup>(1)</sup> Para usar este comando, previamente hay que verificar o guardar los cambios en la rama actual. La rama que se desea verificar debe estar en su repositorio local.
 
-En caso de querer profundizar en el manejo de esta herramienta y sus comandos avanzados, te sugerimos descargar la guía oficial de **Git** a través del siguiente link [Downloads](https://git-scm.com/book).
+En caso de querer profundizar en el manejo de esta herramienta y sus comandos avanzados, se sugiere descargar la guía oficial de **Git** a través del siguiente link [Downloads](https://git-scm.com/book).
 
 ## 4.- Vincular Git con Rstudio
 <p align="center">         
@@ -171,13 +174,13 @@ En caso de querer profundizar en el manejo de esta herramienta y sus comandos av
 Primero se debe instalar **R**, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/).
 Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de **R**. Además, para saber cuál versión descargar (32 o 64 bits), en Windows puedes seguir los siguientes pasos:
 
-1. Ingrese a **Configuración** de su equipo de cómputo.
+1. Ingresar a **Configuración** de su equipo de cómputo.
 
-2. Seleccione **Sistema**.
+2. Seleccionar **Sistema**.
 
-3. Haga clic en **Acerca de ...**.
+3. Hacer clic en **Acerca de ...**.
 
-4. Visualice la opción de **Tipo de Sistema**. Ahí se identifica si es de 32 o 64 bits. 
+4. Visualizar la opción de **Tipo de Sistema**. Ahí se identifica si es de 32 o 64 bits. 
 
 Una vez que se tiene instalado **R**, es posible descargar **RStudio** desde aquí: [Descargar RStudio](https://www.rstudio.com/products/rstudio/download/#download)
 
