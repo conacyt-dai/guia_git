@@ -172,7 +172,7 @@ En caso de querer profundizar en el manejo de esta herramienta y sus comandos av
 
 ###  Instalar R y RStudio
 
-Primero se debe instalar **R**, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/).
+Primero se debe instalar **R**, para ello se consulta el siguiente sitio, donde se puede [Descargar R](https://cran.r-project.org/bin/windows/base/).
 Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de **R**. Además, para saber cuál versión descargar (32 o 64 bits), en Windows puedes seguir los siguientes pasos:
 
 1. Ingresar a **Configuración** de su equipo de cómputo.
@@ -223,7 +223,7 @@ Para vincular **RStudio** al proyecto en **GitHub**, es necesario seguir las sig
 
 3. Una vez en la pestaña que se muestra, escriba el nombre del directorio, seleccione "**Create a git repository**" y se sugiere "**Open in new session**".
 
-4. Para terminar, cerramos el proyecto desde **File -> Close Project** antes de cerrar **RStudio** a fin de evitar errores al recargar la interfaz en otra ocasión.
+4. Para terminar, se cierra el proyecto desde **File -> Close Project** antes de cerrar **RStudio** a fin de evitar errores al recargar la interfaz en otra ocasión.
 
 Si se desea conocer más sobre la vinculación de **Git y RStudio**, se sugiere consultar el siguiente [Documento](https://cfss.uchicago.edu/setup/git-with-rstudio/).
 
