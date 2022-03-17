@@ -77,7 +77,7 @@ Para obtener el enlace HTTPS o SSH se debe de dirigir al repositorio en **GitHub
 <img src="imagen/link.png" alt="link" style="width:350px;"/>
 </p>
 
-A este procedimiento se le conoce como **autenticación**. Es importante mencionar que existen dos opciones para vincular un repositorio: los protocolos HTTPS y SSH, los cuales tienen las características que se muestran en la siguiente tabla.
+A este procedimiento se le conoce como **autenticación**. Es importante mencionar que existen dos opciones para vincular un repositorio: los protocolos HTTPS y SSH, sus características se muestran en la siguiente tabla.
 <br/>
 
 | Protocolo | Características|
