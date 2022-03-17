@@ -84,12 +84,13 @@ A este procedimiento se le conoce como **autenticación**. Es importante mencion
 Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de **GitHub** en **Git**.
 	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de **GitHub**: 
 	
-	- Instalar **GitHub CLI**.
-	- En la terminal de GitBash, escribir: <code>gh auth login</code> y seguir las instrucciones.
+	- Instalar GitHub CLI.
+	- En la terminal de GitBash, escribir: gh auth login   , y seguir las instrucciones.
 	
 - **SSH**
 
-Al elegir la opción SSH, será necesario crear claves SSH en cada computadora que use para su proyecto, ya sea para enviar o extraer información del repositorio en **GitHub**. Para establecer la configuración SSH o cambiar de HTTPS a SSH se puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
+Al elegir la opción SSH, será necesario crear claves SSH en cada computadora que use para el respectivo proyecto, ya sea para enviar o extraer información del repositorio en **GitHub**. 
+Para establecer la configuración SSH o cambiar de HTTPS a SSH se puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
 
 Por cuestiones de seguridad se sugiere el uso del protocolo HTTPS (ya que reduce los riesgos de  "*[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)*"). 
 	
