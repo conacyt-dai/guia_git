@@ -1,6 +1,6 @@
 # Comentarios
 
-Acceso a la **[guía](https://github.com/conacyt-dai/guia_git/blob/main/GUIA.md)**
+Acceso a la **[guía](https://github.com/conacyt-dai/guia_git/blob/main/GUIA.md)**.
 
 Esperamos que este trabajo les sea de utilidad.
 
