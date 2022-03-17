@@ -89,7 +89,7 @@ A este procedimiento se le conoce como **autenticación**. Es importante mencion
 
 Por cuestiones de seguridad se sugiere el uso del protocolo HTTPS, ya que este protocolo reduce los riesgos de  *[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)*. 
 	
-Para más información sobre administración de repositorios remotos puede consultarse el siguiente *[sitio](https://docs.github.com/en/get-started/quickstart/set-up-git)*.
+Para más información sobre administración de repositorios remotos puedes consultar el siguiente *[sitio](https://docs.github.com/en/get-started/quickstart/set-up-git)*.
 
 
 ## 3.- Trabajar desde Git Bash
