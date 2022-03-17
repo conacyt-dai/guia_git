@@ -36,7 +36,7 @@ Primero se debe de acceder a este **[enlace](https://github.com/)**  y crear una
 
 2.- Se debe abrir esa pestaña y hacer clic en "New Repository". 
 
-3.- Ahora aparecerán las opciones de configuración donde se tendrá la opción de agregar un documento README.md. 
+3.- Ahora, aparecerán las opciones de configuración donde se tendrá la opción de agregar un documento README.md. 
 
 4.- Listo. Una vez seleccionadas las preferencias de configuración, el nuevo repositorio se habrá creado.
 
@@ -59,7 +59,7 @@ Posteriormente, se recomienda crear una carpeta "repositorio" en la siguiente ub
   
 En esta ubicación se generará el repositorio que podrá usarse en el futuro. Una vez instalado **Git** se puede seguir los siguientes pasos para clonar un repositorio. Como recordatorio, la forma de correr una línea de código generalmente es pulsando **Ctrl + Enter**.
 
-Ahora, para seleccionar la carpeta que se generó y clonar un repositorio en esa ubicación, se debe usar los siguientes comandos:
+Luego, para seleccionar la carpeta que se generó y clonar un repositorio en esa ubicación, se debe usar los siguientes comandos:
 
 -  `cd Documents/<Repositorio>`  
 
@@ -77,15 +77,15 @@ Para obtener el enlace HTTPS o SSH se debe de dirigir al repositorio en **GitHub
 <img src="imagen/link.png" alt="link" style="width:350px;"/>
 </p>
 
-A este procedimiento se le conoce como autenticación. Es importante mencionar que existen dos opciones para vincular un repositorio: los protocolos HTTPS y SSH, los cuales tienen las siguientes características:
+A este procedimiento se le conoce como **autenticación**. Es importante mencionar que existen dos opciones para vincular un repositorio: los protocolos HTTPS y SSH, los cuales tienen las siguientes características:
 
 - **HTTPS**
 
 Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de **GitHub** en **Git**.
 	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de **GitHub**: 
 	
-	1. Instalar **GitHub** CLI.
-	2. En la terminal de GitBash, escribir <code>gh auth login</code> y seguir las instrucciones.
+	- Instalar **GitHub CLI**.
+	- En la terminal de GitBash, escribir: <code>gh auth login</code> y seguir las instrucciones.
 	
 - **SSH**
 
