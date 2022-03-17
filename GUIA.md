@@ -38,7 +38,7 @@ Primero, debes acceder a este **[enlace](https://github.com/)**  y crear una cue
 
 3.- Ahora, aparecerán las opciones de configuración donde se tendrá la opción de agregar un documento README.md. 
 
-4.- Listo. Una vez seleccionadas las preferencias de configuración, el nuevo repositorio se habrá creado.
+4.- Listo, una vez seleccionadas las preferencias de configuración, el nuevo repositorio se habrá creado.
 
 ###  Instalación de Git en Linux, Windows y macOS
 
@@ -101,10 +101,10 @@ Al abrir **Git Bash** siempre se debe seleccionar el repositorio o carpeta donde
 ### Actualización o descarga de repositorio local
 
 Para estar al tanto de los cambios que se han realizado en el repositorio de **GitHub** se debe hacer una actualización de los cambios realizados en la nube. 
-Por otro lado, cuando se quiere subir cambios a una rama, antes de subir los cambios (`push`) se debe actualizar, ya que en caso de que haya cambios no registrados en el repositorio local podría haber un error y no ejecutar la función `push`.
+Por otro lado, cuando se quiere subir cambios a una rama (`push`), previamente se debe actualizar, ya que en caso de que haya cambios no registrados en el repositorio local podría haber un error y no ejecutar la función `push`.
 
-Comando para actualizar el repositorio local a la última versión:
-
+Comandos para actualizar el repositorio local a la última versión:
+-  `cd <Nuevo repositorio>`
 -  `git pull --verbose`
 
 ### Publicar cambios en el repositorio remoto GitHub
@@ -119,7 +119,7 @@ Para agregar las modificaciones realizadas a todos los archivos contenidos en el
 
 Si se requiere publicar los cambios realizados en un solo archivo, en lugar de escribir un punto (`.`), se escribe el nombre del archivo y su extensión:
 
-- `git add <Archivo>` (Ejemplo: git add abc.txt)
+- `git add <Archivo.extensión>` 
 - `git commit -m "<Mensaje sobre la actualización realizada>"`
 - `git push`
 
