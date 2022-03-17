@@ -77,20 +77,14 @@ Para obtener el enlace HTTPS o SSH se debe de dirigir al repositorio en **GitHub
 <img src="imagen/link.png" alt="link" style="width:350px;"/>
 </p>
 
-A este procedimiento se le conoce como **autenticación**. Es importante mencionar que existen dos opciones para vincular un repositorio: los protocolos HTTPS y SSH, los cuales tienen las siguientes características:
+A este procedimiento se le conoce como **autenticación**. Es importante mencionar que existen dos opciones para vincular un repositorio: los protocolos HTTPS y SSH, los cuales tienen las características que se muestran en la siguiente tabla.
+<br/>
 
-- **HTTPS**
+| Protocolo | Características|
+|-----------|-----------------|
+| - **HTTPS**| Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de **GitHub** en **Git**.<br/> Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de **GitHub**:  <br/> - Instalar GitHub CLI. <br/> - En la terminal de GitBash, escribir: gh auth login   , y seguir las instrucciones.|
+|- **SSH**| Al elegir la opción SSH, será necesario crear claves SSH en cada computadora que use para el respectivo proyecto, ya sea para enviar o extraer información del repositorio en **GitHub**.<br/> Para establecer la configuración SSH o cambiar de HTTPS a SSH se puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.|
 
-Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de **GitHub** en **Git**.
-	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de **GitHub**: 
-	
-	- Instalar GitHub CLI.
-	- En la terminal de GitBash, escribir: gh auth login   , y seguir las instrucciones.
-	
-- **SSH**
-
-Al elegir la opción SSH, será necesario crear claves SSH en cada computadora que use para el respectivo proyecto, ya sea para enviar o extraer información del repositorio en **GitHub**. 
-Para establecer la configuración SSH o cambiar de HTTPS a SSH se puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
 
 Por cuestiones de seguridad se sugiere el uso del protocolo HTTPS (ya que reduce los riesgos de  "*[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)*"). 
 	
