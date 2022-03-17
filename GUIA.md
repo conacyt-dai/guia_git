@@ -282,16 +282,27 @@ Para garantizar el control de la información y de los flujos de trabajo se reco
 
 | Concepto | Definición | 
 |-----------|----------------|
+<<<<<<< HEAD
 | Biblioteca		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear". |
 | CVS 			| "Es un sistema que registra los cambios sobre el tiempo de un archivo o conjunto de ellos, para que sea posible recuperar versiones específicas posteriormente". |
+=======
+| Rama (Branch) | Es una divergencia de la línea principal de desarrollo, la cual permite trabajar sin arruinar la línea principal. |
+| CVS 			| "Es un sistema que registra los cambios sobre el tiempo de un archivo o conjunto de ellos, para que sea posible recuperar versiones específicas posteriormente" (Git, 2022). |
+>>>>>>> local-j
 | Git 			| Es un Sistema de Control de Versiones que permite dar seguimiento de forma colaborativa a un proyecto. |
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
 | Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos. |
 | HTTPS  	| Hypertext Transfer Protocol Secure por su significado en Inglés, es una versión del protocolo HTTP, que usa protocolos SSL/TLS para encriptar y autentificar.|
 | Línea de Comandos  | También conocido como Command Line Interface (CLI), procesa instrucciones en forma de texto para un programa de computadora. |
+<<<<<<< HEAD
 | Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto. |
 | R  			| "Es un lenguaje y ambiente para el cómputo estadístico y científico". |
 | Rama (Branch) | Es una divergencia de la línea principal de desarrollo, la cual permite trabajar sin arruinar la línea principal. |
+=======
+| Biblioteca		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear" (Beal, 2021). |
+| Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto. |
+| R  			| "Es un lenguaje y ambiente para el cómputo estadístico y científico" (R Foundation, 2022).  |
+>>>>>>> local-j
 | R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. |
 | R Script 		| Archivo de texto editable que contiene código y comentarios que posteriormente pueden ser ejecutados. |
 | RStudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como consola, apoyo sintáctico, así como otras opciones. |
