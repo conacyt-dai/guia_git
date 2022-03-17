@@ -4,7 +4,7 @@
 
 ## 1.- Introducción
 
- **Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la DAI, se ha generado esta guía sobre el uso de Git y GitHub, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. Primero se muestran instrucciones sobre la instalación de Git, GitHub, R y RStudio, y posteriormente se explica cómo configurar e iniciar un proyecto.** 
+ Con el objetivo de facilitar el trabajo transparente y colaborativo entre los equipos de la **DAI**, se ha generado esta guía sobre el uso de **Git** y **GitHub**, herramientas que permiten trabajar conservando un registro del control de versiones de proyectos en que participan varias personas simultáneamente. Primero se muestran instrucciones sobre la instalación de **Git**, **GitHub**, **R** y **RStudio**, y posteriormente se explica cómo configurar e iniciar un proyecto.
 
 <p align="center">         
 <img src="imagen/logo1.png" alt="git" style="width:300px;"/> 
@@ -23,31 +23,31 @@ Con esta herramienta es posible actualizar el código desarrollado de manera col
 ### GitHub
 
 **GitHub** es la plataforma más popular para controlar versiones de código, pues permite publicar, compartir y socializar (como una red social digital) el código de programación. 
-Además, registra cada cambio en el código y las carpetas de trabajo para rastrear la evolución de proyectos y, si es necesario, revertir los cambios. Esta plataforma fue adquirida por [ Microsoft en 2018 ](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/). 
+Además, registra cada cambio en el código y las carpetas de trabajo para rastrear la evolución de proyectos y, si es necesario, revertir los cambios. Esta plataforma fue adquirida por [Microsoft en 2018](https://news.microsoft.com/es-es/2018/06/04/microsoft-adquirira-github-por-7-500-millones-de-dolares/). 
 
 ## 2.- Instrucciones
 
 ###  Crear cuenta y repositorio en GitHub
 
-Primero debes acceder a este **[enlace](https://github.com/)**  y crear una cuenta de GitHub. Para ello vas a necesitar una dirección de correo electrónico, generar un nombre de usuaria o usuario y una contraseña.
+Primero debes acceder a este **[enlace](https://github.com/)**  y crear una cuenta de **GitHub**. Para ello vas a necesitar una dirección de correo electrónico, generar un nombre de usuario y una contraseña.
 
-1.- Una vez creada la cuenta, en la parte superior derecha de la página de GitHub se observará un símbolo ' + '. 
+1.- Una vez creada la cuenta, en la parte superior derecha de la página de **GitHub** se observará un símbolo ' + '. 
 
 2.- Debe abrir esa pestaña y hacer clic en "New Repository". 
 
 3.- Ahora aparecerán las opciones de configuración donde tendrá la opción de agregar un documento README.md. 
 
-4.- Listo. Una vez seleccionadas las preferencias de configuración el nuevo repositorio se habrá creado.
+4.- Listo. Una vez seleccionadas las preferencias de configuración, el nuevo repositorio se habrá creado.
 
 ###  Instalación de Git en Linux, Windows y macOS
 
-Para descargar el archivo de instalación de Git accede a este **[enlace](https://git-scm.com/downloads)**, selecciona el archivo correspondiente al sistema operativo que utilices y sigue sus instrucciones. Las opciones predeterminadas permitirán el funcionamiento adecuado de Git en tu computadora.
+Para descargar el archivo de instalación de **Git** accede a este **[enlace](https://git-scm.com/downloads)**, selecciona el archivo correspondiente al sistema operativo que utilices y sigue sus instrucciones. Las opciones predeterminadas permitirán el funcionamiento adecuado de **Git** en tu computadora.
 
 #### Configuración de Git
 
-Para vincular Git con tu cuenta de GitHub es necesario agregar tus credenciales de la forma en que se muestra a continuación. Cabe mencionar que el procedimiento se lleva a cabo en Git Bash.
+Para vincular **Git** con tu cuenta de **GitHub** es necesario agregar tus credenciales de la forma en que se muestra a continuación. Cabe mencionar que el procedimiento se lleva a cabo en **Git Bash**.
 
--  `git config --global user.name "<Nombre de usuario>"`
+- `git config --global user.name "<Nombre de usuario>"`
 	
 - `git config --global user.email <Cuenta de correo electrónico>` 
 
@@ -75,17 +75,19 @@ Para obtener el enlace HTTPS o SSH debes dirigirte a tu repositorio en **GitHub*
 <img src="imagen/link.png" alt="link" style="width:350px;"/>
 </p>
 
-A este procedimiento se le conoce como autenticación. Es importante mencionar que existen dos opciones para vincular un repositorio: los protocolos HTTPS y SSH, los cuales tienen las siguientes características.
+A este procedimiento se le conoce como autenticación. Es importante mencionar que existen dos opciones para vincular un repositorio: los protocolos HTTPS y SSH, los cuales tienen las siguientes características:
 
-- **HTTPS**:
-    Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de **GitHub** en **Git**.
+- **HTTPS**
+
+Si se elige el protocolo HTTPS, esto le permitirá usar un administrador de credenciales para almacenar en memoria cache las credenciales de **GitHub** en **Git**.
 	Para seguir este protocolo se sugiere seguir lo siguientes pasos, retomados por la guía oficial de **GitHub**: 
 	
 	1. Instalar **GitHub** CLI.
 	2. En la terminal de GitBash, escribir <code>gh auth login</code> y seguir las instrucciones.
 	
-- **SSH**:
-    Al elegir la opción SSH, será necesario crear claves SSH en cada computadora que use para su proyecto, ya sea para enviar o extraer información del repositorio en **GitHub**. Para establecer la configuración SSH o cambiar de HTTPS a SSH puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
+- **SSH**
+
+Al elegir la opción SSH, será necesario crear claves SSH en cada computadora que use para su proyecto, ya sea para enviar o extraer información del repositorio en **GitHub**. Para establecer la configuración SSH o cambiar de HTTPS a SSH puede consultar el siguiente **[enlace](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-t)**.
 
 Por cuestiones de seguridad se sugiere el uso del protocolo HTTPS (ya que reduce los riesgos de  "*[Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)*"). 
 	
@@ -95,7 +97,7 @@ Para más información sobre administración de repositorios remotos puede consu
 	
 Al abrir **Git Bash** siempre debes seleccionar el repositorio o carpeta donde se encuentren los archivos que se desean actualizar:
 
--  ` cd  /Documents/<Nuevo repositorio>`
+-  `cd  /Documents/<Nuevo repositorio>`
 
 ### Actualización o descarga de repositorio local
 
@@ -103,7 +105,7 @@ Para estar al tanto de los cambios que se han realizado en el repositorio de **G
 
 Comando para actualizar el repositorio local a la última versión:
 
--  ` git pull --verbose`
+-  `git pull --verbose`
 
 ### Publicar cambios en el repositorio remoto GitHub
 
@@ -115,7 +117,7 @@ Para agregar las modificaciones realizadas a todos los archivos contenidos en el
 
 ### Publicar cambios en un solo archivo
 
-Si se requiere publicar los cambios realizados en un solo archivo, en vez de escribir un punto (.) se escribe el nombre del archivo y su extensión:
+Si se requiere publicar los cambios realizados en un solo archivo, en vez de escribir un punto (`.`) se escribe el nombre del archivo y su extensión:
 
 - `git add <Archivo>` (Ejemplo: git add abc.txt)
 - `git commit -m "<Mensaje sobre la actualización realizada>"`
@@ -125,9 +127,9 @@ Si se requiere publicar los cambios realizados en un solo archivo, en vez de esc
 
 Los Sistemas de Control de Versiones (VCS) permiten ignorar archivos mediante el contenido del archivo `.gitignore`. Debido a que todos los archivos y directorios son suceptibles a ser compartidos en los repositorios, es necesario declarar explicitamente a **Git** cuáles archivos o directorios se omitirán.
 
-Existen varias formas de indicar cuáles elementos ignorar, y esto dependerá de qué es lo que se busca omitir. Usualmente se emplea `gitignore`en la rama principal para ignorar archivos de un sólo repositorio, como se muestra a continuación.
+Existen varias formas de indicar cuáles elementos ignorar, y esto dependerá de qué es lo que se busca omitir. Usualmente se crea el archivo `.gitignore` en la rama principal para ignorar archivos de un sólo repositorio, como se muestra a continuación:
 
-- `touch .gitignore`<br/>
+- `touch .gitignore`
 
 Lo anterior crea un archivo `.gitignore` en blanco. Dentro de este, se deberá incluir en formato de texto todos los archivos por omitir. Usualmente es posible pasar por alto tipos de archivo (tales como .log, .md), paqueterías (tales como .rar, .zip, etc.), claves privadas y *tokens*.
 
@@ -137,25 +139,25 @@ NOTA: Para desvincular tu cuenta de un repositorio colaborativo puedes consultar
 
 Para facilitar el uso de **Git** y resolver posibles dificultades con el uso de funciones se agrega una sección con los comandos y funciones más utilizadas:
 
-| Comando  | Uso |
+| Comando | Uso |
 |----------|--------|     
 | `git --help` | Se mostrará en pantalla una lista de los comandos más usados (incluidos los enlistados en está tabla) y una breve explicación|
 | `git <Comando> --help` | Para consultar las características de uso y función de un comando en específico|
 | `git clone <URL>` | Descargar un repositorio existente|
-| `git add <Archivo> ` | Agregar archivo a área de aterrizaje|
-| `git commit -m " <Mensaje de descripción de cambios>"`|Guardar cambios que se subieron al área de documentos que están listos para ser compartidos|
+| `git add <Archivo>` | Agregar archivo a área de aterrizaje|
+| `git commit -m "<Mensaje de descripción de cambios>"`|Guardar cambios que se subieron al área de documentos que están listos para ser compartidos|
 | `git pull <Repositorio> [<Rama>]`|Actualizar los cambios de un repositorio remoto|
 | `git push <Repositorio> [<Rama>]`|Actualizar los cambios de tu rama al repositorio remoto asociado|
 | `git branch <Rama>`|Crear una nueva rama|  
 | `git branch --list `|Visualizar ramas existentes| 
 | `git branch -d <Rama>`|Eliminar rama| 
-| `git checkout <Rama>`|Para cambiar de una rama a otra (1) |
-| `git merge nombre_fuente <Rama Destino>`|Mezclar los cambios de las ramas|
+| `git checkout <Rama>`|Para cambiar de una rama a otra <sup>(1)</sup>|
+| `git merge <Rama Fuente> <Rama Destino>`|Mezclar los cambios de las ramas|
 | `git rm -r --cached <Directorio>`|Eliminar repositorio y su contenido|
 | `git rm <Archivo>`|Eliminar un archivo en particular| 
 | `cd repositorio`<br/>`rm -rf .git`| Eliminar un repositorio local|
   
-(1) Para usar este comando, previamente hay que verificar o guardar los cambios en la rama actual. La rama que se desea verificar debe estar en su repositorio local.
+<sup>(1)</sup> Para usar este comando, previamente hay que verificar o guardar los cambios en la rama actual. La rama que se desea verificar debe estar en su repositorio local.
 
 En caso de querer profundizar en el manejo de esta herramienta y sus comandos avanzados, te sugerimos descargar la guía oficial de **Git** a través del siguiente link [Downloads](https://git-scm.com/book).
 
@@ -166,8 +168,8 @@ En caso de querer profundizar en el manejo de esta herramienta y sus comandos av
 
 ###  Instalar R y RStudio
 
-Primero se debe instalar R, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/).
-Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de R. Además, para saber qué versión de R descargar ( 32 o 64 bits), en Windows puedes seguir los siguientes pasos: 
+Primero se debe instalar **R**, para ello consulta el siguiente sitio, donde podrás [Descargar R](https://cran.r-project.org/bin/windows/base/).
+Las opciones de configuración predeterminadas permitirán el funcionamiento adecuado de **R**. Además, para saber cuál versión descargar (32 o 64 bits), en Windows puedes seguir los siguientes pasos:
 
 1. Ingrese a **Configuración** de su equipo de cómputo.
 
@@ -238,21 +240,21 @@ La cual se configura únicamente para trabajar de manera local como se muestra e
 <img src="imagen/local.png" alt=" " style="width:250px;"/>
 </p>
 
-Este paso se realiza para evitar problemas cuando haya cambios en la rama principal  `main`. De preferencia, se hace esta acción cada vez que inicie un nuevo proyecto. Para evitar errores más adelante, el nombre de la rama no debe contener símbolos especiales, puntos, acentos o espacios; se sugiere usar `local`.
+Este paso se realiza para evitar problemas cuando haya cambios en la rama principal `main`. De preferencia, se hace esta acción cada vez que inicie un nuevo proyecto. Para evitar errores más adelante, el nombre de la rama no debe contener símbolos especiales, puntos, acentos o espacios; se sugiere usar `local`.
 
 2. Se trabaja normalmente, y se realizan todas las acciones y actualizaciones dentro de esta rama local.
 
 3. Se presiona `Commit` dentro de la pestaña **Git** y escribe los comentarios necesarios para explicar nuestro trabajo realizado en la ventana que se abre. Asegúrese de seleccionar solo los archivos que deseemos actualizar.
 
-4. Junto al nombre de la rama local `<Rama local>` en la pestaña **Git** aparece un triángulo que apunta hacia abajo, se hace clic en él y se cambia a la rama principal `main` Esto abre un mensaje que, si no hay errores, indicará que ha cambiado a la rama principal.
+4. Junto al nombre de la rama local `<Rama local>` en la pestaña **Git** aparece un triángulo que apunta hacia abajo, se hace clic en él y se cambia a la rama principal `main` Esto abre un mensaje que, si no se presentan errores, indicará que ha cambiado a la rama principal.
 
 5. Nuevamente se realiza `pull` porque podría haber actualizaciones realizadas por otro colaborador.
 
 6. En caso de que haya actualizaciones después de **descargar** la última versión del repositorio, nuevamente se hace `commit`.  Note que ya se encuentra en la rama principal `main` del proyecto.
 
-7. Se abre una consola a partir del menú `Tools -> Shell `.
+7. Se abre una consola a partir del menú `Tools -> Shell`.
 
-8. En la consola se escribe el siguiente comando: `git merge <Rama local>` es decir el nombre que se asignó a la rama local en la cual se trabajó. Esto se hace para **combinar** el trabajo local con la rama principal ` main`  antes de subir las actualizaciones al repositorio. Se cierra la consola.
+8. En la consola se escribe el siguiente comando: `git merge <Rama local>` es decir el nombre que se asignó a la rama local en la cual se trabajó. Esto se hace para **combinar** el trabajo local con la rama principal `main`  antes de subir las actualizaciones al repositorio. Se cierra la consola.
 
 9. A continuación, se hace `push` del trabajo. Esto se logra seleccionando la flecha verde que apunta hacia arriba. Esto actualizará el repositorio.
 
@@ -265,38 +267,36 @@ Este paso se realiza para evitar problemas cuando haya cambios en la rama princi
 ## 5.- Buenas prácticas en el uso de Sistemas de Control de Versiones
 
 Para garantizar el control de la información y de los flujos de trabajo se recomienda lo siguiente:
-	
+
 - Si se quiere proteger el código y la información, en primera instancia se recomienda configurar los repositorios como **privados**.
-	
+
 - En el uso de datos, es importante evaluar la existencia de datos **personales y/o sensibles** para removerlos o anonimizarlos antes de subirlos a los repositorios.
-	
+
 - Agregar un archivo que describa las características del proyecto.
-	
+
 - Generar metadatos para conocer las características de las bases de datos y procedimientos que se les han aplicado.
 
-- Hacer uso de ramas, para trabajar colaborativamente. Esto reducirá problemas de sobre-escritura y conflictos al hacer actualizaciones. 	
-
+- Hacer uso de ramas para trabajar colaborativamente. Esto reducirá problemas de sobre-escritura y conflictos al hacer actualizaciones.
 	
 ## 6.-  Glosario
 
 | Concepto | Definición | 
 |-----------|----------------|
-| Branch o Rama		| Es una divergencia de la línea principal de desarrollo, la cual permite trabajar sin arruinar la línea principal.    | 
-| CVS 			| "Es un sistema que registra los cambios sobre el tiempo de un archivo o conjunto de ellos, para que sea posible recuperar versiones específicas posteriormente".  | 
-| Git 			| Es un Sistema de Control de Versiones que permite dar seguimiento de forma colaborativa a un proyecto.  |
+| Rama (Branch) | Es una divergencia de la línea principal de desarrollo, la cual permite trabajar sin arruinar la línea principal. |
+| CVS 			| "Es un sistema que registra los cambios sobre el tiempo de un archivo o conjunto de ellos, para que sea posible recuperar versiones específicas posteriormente". |
+| Git 			| Es un Sistema de Control de Versiones que permite dar seguimiento de forma colaborativa a un proyecto. |
 | GitHub 		| Plataforma para publicar, compartir y socializar código de programación. |
-| Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos.|
+| Git Bash     | Acrónimo en inglés de Bourne Again Shell. Es una aplicación que ofrece un entorno para emular líneas de comandos. |
 | HTTPS  	| Hypertext Transfer Protocol Secure por su significado en Inglés, es una versión del protocolo HTTP, que usa protocolos SSL/TLS para encriptar y autentificar.	|
-| Línea de Comandos  | También conocido como Command Line Interface (CLI), procesa instrucciones en forma de texto para un programa de computadora. | 
-| Biblioteca		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear".   |
-| Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto.  |
-| R  			| "Es un lenguaje y ambiente para el cómputo estadístico y graficación", además de ser multiusos.  |
-| R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. 	|
-| R Script 		| Archivo de texto editable que contiene código y comentarios que posteriormente pueden ser ejecutados |
-| Rstudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como Consola, apoyo sintáctico, así cómo otras opciones. |
-| SSH  	| Secure Shell, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. 	|
-| Tampering | Es un parámetro de seguridad que permite manipular el intercambio de información entre usuarios y computadoras, para modificar datos, tales como credenciales o permisos. |
-
+| Línea de Comandos  | También conocido como Command Line Interface (CLI), procesa instrucciones en forma de texto para un programa de computadora. |
+| Biblioteca		| "Es un conjunto de rutinas [computacionales] preestablecidas, que un [programador] puede emplear". |
+| Markdown 		| Es un lenguaje de marcado que se emplea para modificar documentos de texto plano. El lenguaje de marcado se refiere al formato y presentación del texto. |
+| R  			| "Es un lenguaje y ambiente para el cómputo estadístico y científico". |
+| R Markdown  	| Es un formato para escribir el lenguaje de marcado de un documento  desde R. |
+| R Script 		| Archivo de texto editable que contiene código y comentarios que posteriormente pueden ser ejecutados. |
+| RStudio 		| Es un Ambiente de Desarrollo (IDE), incluye herramientas como consola, apoyo sintáctico, así como otras opciones. |
+| SSH  	| Secure Shell, por su significado en Inglés. Es una llave de acceso que usa el protocolo SSH, el cuál establece la conexión con un cliente y in servidor. |
+| Tampering | Es un parámetro de seguridad que consiste en manipular el intercambio de información entre usuarios y computadoras para modificar datos, tales como credenciales o permisos. |
 
 ## Referencias 
 
