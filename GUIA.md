@@ -30,7 +30,7 @@ Además, registra cada cambio en el código y las carpetas de trabajo para rastr
 
 ###  Crear cuenta y repositorio en GitHub
 
-Primero se debe de acceder a este **[enlace](https://github.com/)**  y crear una cuenta de **GitHub**. Para ello se necesita una dirección de correo electrónico, generar un nombre de usuario y una contraseña.
+Primero, debes acceder a este **[enlace](https://github.com/)**  y crear una cuenta de **GitHub**. Para ello se necesita una dirección de correo electrónico, generar un nombre de usuario y una contraseña.
 
 1.- Una vez creada la cuenta, en la parte superior derecha de la página de **GitHub** se observará un símbolo ' + '. 
 
@@ -42,8 +42,8 @@ Primero se debe de acceder a este **[enlace](https://github.com/)**  y crear una
 
 ###  Instalación de Git en Linux, Windows y macOS
 
-Para descargar el archivo de instalación de **Git** se accede a este **[enlace](https://git-scm.com/downloads)**, selecciona el archivo correspondiente al sistema operativo que se utilice y se sigues las instrucciones. 
-Las opciones predeterminadas permitirán el funcionamiento adecuado de **Git** en el computador.
+Para descargar el archivo de instalación de **Git** usa este **[enlace](https://git-scm.com/downloads)**, selecciona el archivo correspondiente al sistema operativo que se utilice y se sigues las instrucciones. 
+Las opciones predeterminadas permitirán el funcionamiento adecuado de **Git** en tu ordenador.
 
 #### Configuración de Git
 
@@ -53,7 +53,7 @@ Para vincular **Git** con la cuenta de **GitHub** es necesario agregar las crede
 	
 - `git config --global user.email <Cuenta de correo electrónico>` 
 
-Posteriormente, se recomienda crear una carpeta "repositorio" en la siguiente ubicación de la computadora:
+Si usas Windows, se _recomienda_ crear una carpeta "repositorio" en la siguiente ubicación de tu ordenador:
 
 - `C:/Usuarios/<Nombre de usuario>/Documents/<Repositorio>`
   
